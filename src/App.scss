@@ -1,0 +1,75 @@
+.main {
+  background-color: #000000;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: white;
+}
+.landing {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  div {
+    display: flex;
+    flex-direction: row;
+
+    h2 {
+      max-width: 200px;
+    }
+  }
+}
+
+#about {
+  min-height: 100vh;
+}
+
+.landing {
+  padding: 0 10%;
+}
+
+.main-content {
+  width: 75%;
+  margin-left: auto;
+
+  > div {
+    min-height: 100vh;
+  }
+}
+
+#skills {
+    > div {
+      margin: 0 10%;
+      min-height: 300px;
+      border: 1px solid white;
+    }
+}
+
+.tab-head {
+  button {
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 80px;
+    border: 1px solid white;
+  }
+}
+.tab-body{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+#projects {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    text-align: center;
+  }
+  div {
+    min-width: 100px;
+    min-height: 500px;
+    border: 1px solid white;
+  }
+}
