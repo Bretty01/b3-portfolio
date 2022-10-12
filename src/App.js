@@ -3,6 +3,7 @@ import './App.scss';
 import {useRef} from "react"
 import SkillStamp from "./components/SkillStamp/SkillStamp"
 import Navigation from "./components/Navigation/Navigation"
+
 function App() {
 
     const handleScroll = event => {
@@ -25,7 +26,7 @@ function App() {
             </div>
             <h3>Full Stack Developer <strong>|</strong> Software Developer <strong>|</strong> Fun Guy</h3>
         </div>
-        <div className="main-content">
+        <div id="main-content">
             <div id="about" ref={navRefs[0]}>
                 <h2>The name is <strong>Brett</strong>! Welcome aboard!</h2>
                 <span>I'm a <strong>Full Stack Developer</strong> born and raised in Regina, Saskatchewan. While I
@@ -59,7 +60,10 @@ function App() {
             <div id="projects" ref={navRefs[2]}>
                 <h1>Projects</h1>
                 <div>
-
+                    <p className="projects-link">Coveted Cow</p>
+                    <p className="projects-link">Coveted Cow</p>
+                    <p className="projects-link">Coveted Cow</p>
+                    <p className="projects-link">Coveted Cow</p>
                 </div>
             </div>
         </div>
