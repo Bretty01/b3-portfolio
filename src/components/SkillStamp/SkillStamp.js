@@ -5,7 +5,7 @@ const SkillStamp = (props) => {
 
     return (
         <div className="skill-stamp">
-            <img src={props.image} alt="skill"/>
+            {props.image}
             <p>{props.title}</p>
         </div>
     )

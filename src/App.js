@@ -1,16 +1,24 @@
 import logo from './logo.svg';
 import './App.scss';
 import {useRef} from "react"
-import SkillStamp from "./components/SkillStamp/SkillStamp"
+import Skills from "./components/Skills/Skills"
 import Navigation from "./components/Navigation/Navigation"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ArticleIcon from '@mui/icons-material/Article';
 
 function App() {
+    const handleEmail = (e) => {
+        e.preventDefault()
+        console.log("Hi, I should do something about this.")
+    }
 
     const handleScroll = event => {
         console.log(event)
     }
 
   const navRefs = [
+      useRef(null),
       useRef(null),
       useRef(null),
       useRef(null)
@@ -25,6 +33,11 @@ function App() {
                 <h2>Success Through Hard Work and Dedication!</h2>
             </div>
             <h3>Full Stack Developer <strong>|</strong> Software Developer <strong>|</strong> Fun Guy</h3>
+            <div className="social-icons">
+                <GitHubIcon />
+                <LinkedInIcon />
+                <ArticleIcon />
+            </div>
         </div>
         <div id="main-content">
             <div id="about" ref={navRefs[0]}>
@@ -39,23 +52,7 @@ function App() {
                 </span>
             </div>
             <div id="skills" ref={navRefs[1]}  onScroll={handleScroll}>
-                <div>
-                    <div className="tab-head">
-                        <button>Frontend</button>
-                        <button>Backend</button>
-                        <button>Languages</button>
-                        <button>Tools</button>
-                    </div>
-                    <div className="tab-body">
-                        <SkillStamp title="React" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-                        <SkillStamp title="React" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-                        <SkillStamp title="React" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-                        <SkillStamp title="React" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-                        <SkillStamp title="React" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-                        <SkillStamp title="React" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-                        <SkillStamp title="React" image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" />
-                    </div>
-                </div>
+                <Skills />
             </div>
             <div id="projects" ref={navRefs[2]}>
                 <h1>Projects</h1>
@@ -65,6 +62,15 @@ function App() {
                     <p className="projects-link">Coveted Cow</p>
                     <p className="projects-link">Coveted Cow</p>
                 </div>
+            </div>
+            <div id="contact" ref={navRefs[3]}>
+                <h1>Contact Me</h1>
+                <form onSubmit={handleEmail}>
+                    <input type="text" placeholder="Enter your name here..."/>
+                    <input type="email" placeholder="Enter your email here..."/>
+                    <textarea placeholder="Message content"/>
+                    <input type="submit" value="submit"/>
+                </form>
             </div>
         </div>
     </div>

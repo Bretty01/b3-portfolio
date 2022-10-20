@@ -5,8 +5,9 @@
       align-items: center;
       justify-content: center;
     }
-    img{
-      max-width: 75%;
+    :nth-child(1){
+      width: 75%;
+      height: 60%;
       margin: auto;
     }
 }

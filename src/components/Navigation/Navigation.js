@@ -7,6 +7,7 @@ const Navigation = (props) => {
     const aboutRef = useRef(null)
     const skillsRef = useRef(null)
     const projectsRef = useRef(null)
+    const contactRef = useRef(null)
     const isInViewport = (index) => {
         const rect = props.navrefs[index].current?.getBoundingClientRect();
         return (
@@ -25,16 +26,25 @@ const Navigation = (props) => {
                 aboutRef.current.style.backgroundColor = "red"
                 skillsRef.current.style.backgroundColor = "darkgrey"
                 projectsRef.current.style.backgroundColor = "darkgrey"
+                contactRef.current.style.backgroundColor = "darkgrey"
             }
             if (isInViewport(1)) {
                 aboutRef.current.style.backgroundColor = "darkgrey"
                 skillsRef.current.style.backgroundColor = "red"
                 projectsRef.current.style.backgroundColor = "darkgrey"
+                contactRef.current.style.backgroundColor = "darkgrey"
             }
             if(isInViewport(2)) {
                 aboutRef.current.style.backgroundColor = "darkgrey"
                 skillsRef.current.style.backgroundColor = "darkgrey"
                 projectsRef.current.style.backgroundColor = "red"
+                contactRef.current.style.backgroundColor = "darkgrey"
+            }
+            if(isInViewport(3)) {
+                aboutRef.current.style.backgroundColor = "darkgrey"
+                skillsRef.current.style.backgroundColor = "darkgrey"
+                projectsRef.current.style.backgroundColor = "darkgrey"
+                contactRef.current.style.backgroundColor = "red"
             }
         })
     }, [])
@@ -45,6 +55,7 @@ const Navigation = (props) => {
                 <h2 onClick={() => props.navrefs[0].current?.scrollIntoView()} ref={aboutRef}>About</h2>
                 <h2 onClick={() => props.navrefs[1].current?.scrollIntoView()} ref={skillsRef}>Skills</h2>
                 <h2 onClick={() => props.navrefs[2].current?.scrollIntoView()} ref={projectsRef}>Projects</h2>
+                <h2 onClick={() => props.navrefs[3].current?.scrollIntoView()} ref={contactRef}>Contact Me</h2>
             </div>
         </div>
     )
