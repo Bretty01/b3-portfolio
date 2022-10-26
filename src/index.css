@@ -16,6 +16,13 @@ code {
     monospace;
 }
 
+:root {
+  --basic-primary: black;
+  --basic-secondary: white;
+  --accent-secondary: #80ff80;
+  --accent-primary: #001800;
+}
+
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif;
   color: white;
@@ -34,5 +41,5 @@ h3 {
 }
 
 strong {
-  color: aqua;
+  color: var(--accent-secondary);
 }

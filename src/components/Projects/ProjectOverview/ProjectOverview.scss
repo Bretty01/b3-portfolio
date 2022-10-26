@@ -1,0 +1,53 @@
+.project-overview {
+  height: 80vh;
+}
+.overview-header {
+  display: flex;
+  flex-direction: row;
+  svg {
+    width: 32px;
+    height: 32px;
+    margin: auto 10px;
+    cursor: pointer;
+  }
+}
+
+.overview-body {
+  display: flex;
+  min-height: 90%;
+  flex-direction: row;
+  > * {
+    width: 50%;
+  }
+  svg {
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+  }
+  .overview-description {
+    min-height: 45%;
+  }
+  .overview-skills {
+    min-height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .overview-links {
+    min-height: 10%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.skill-bubble {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 2px 4px;
+  width: max-content;
+  height: min-content;
+  font-size: 20px;
+  margin: 0.3em;
+
+}

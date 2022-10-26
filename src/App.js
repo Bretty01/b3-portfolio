@@ -3,6 +3,7 @@ import './App.scss';
 import {useRef} from "react"
 import Skills from "./components/Skills/Skills"
 import Navigation from "./components/Navigation/Navigation"
+import Projects from "./components/Projects/Projects"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
@@ -55,13 +56,7 @@ function App() {
                 <Skills />
             </div>
             <div id="projects" ref={navRefs[2]}>
-                <h1>Projects</h1>
-                <div>
-                    <p className="projects-link">Coveted Cow</p>
-                    <p className="projects-link">Coveted Cow</p>
-                    <p className="projects-link">Coveted Cow</p>
-                    <p className="projects-link">Coveted Cow</p>
-                </div>
+                <Projects />
             </div>
             <div id="contact" ref={navRefs[3]}>
                 <h1>Contact Me</h1>

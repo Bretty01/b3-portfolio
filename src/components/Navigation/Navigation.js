@@ -9,7 +9,7 @@ const Navigation = (props) => {
     const projectsRef = useRef(null)
     const contactRef = useRef(null)
     const isInViewport = (index) => {
-        const rect = props.navrefs[index].current?.getBoundingClientRect();
+        const rect = props.navrefs[index]?.current?.getBoundingClientRect();
         return (
             rect.top >= 0 &&
             rect.left >= 0 &&

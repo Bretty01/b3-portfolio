@@ -4,7 +4,7 @@
   margin-right: auto;
   position: fixed;
   display: flex;
-  background-color: darkslategrey;
+  background-color: var(--basic-primary);
   > div {
     display: flex;
     flex-direction: column;
