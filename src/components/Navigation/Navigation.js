@@ -23,28 +23,28 @@ const Navigation = (props) => {
     useEffect(() => {
         document.addEventListener('scroll', function () {
             if(isInViewport(0)) {
-                aboutRef.current.style.backgroundColor = "red"
-                skillsRef.current.style.backgroundColor = "darkgrey"
-                projectsRef.current.style.backgroundColor = "darkgrey"
-                contactRef.current.style.backgroundColor = "darkgrey"
+                aboutRef.current.className = "active"
+                skillsRef.current.className = ""
+                projectsRef.current.className = ""
+                contactRef.current.className = ""
             }
             if (isInViewport(1)) {
-                aboutRef.current.style.backgroundColor = "darkgrey"
-                skillsRef.current.style.backgroundColor = "red"
-                projectsRef.current.style.backgroundColor = "darkgrey"
-                contactRef.current.style.backgroundColor = "darkgrey"
+                aboutRef.current.className = ""
+                skillsRef.current.className = "active"
+                projectsRef.current.className = ""
+                contactRef.current.className = ""
             }
             if(isInViewport(2)) {
-                aboutRef.current.style.backgroundColor = "darkgrey"
-                skillsRef.current.style.backgroundColor = "darkgrey"
-                projectsRef.current.style.backgroundColor = "red"
-                contactRef.current.style.backgroundColor = "darkgrey"
+                aboutRef.current.className = ""
+                skillsRef.current.className = ""
+                projectsRef.current.className = "active"
+                contactRef.current.className = ""
             }
             if(isInViewport(3)) {
-                aboutRef.current.style.backgroundColor = "darkgrey"
-                skillsRef.current.style.backgroundColor = "darkgrey"
-                projectsRef.current.style.backgroundColor = "darkgrey"
-                contactRef.current.style.backgroundColor = "red"
+                aboutRef.current.className = ""
+                skillsRef.current.className = ""
+                projectsRef.current.className = ""
+                contactRef.current.className = "active"
             }
         })
     }, [])

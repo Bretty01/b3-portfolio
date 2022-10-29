@@ -5,6 +5,10 @@
   position: fixed;
   display: flex;
   background-color: var(--basic-primary);
+  .active {
+    background-color: var(--accent-secondary);
+    color: var(--basic-primary);
+  }
   > div {
     display: flex;
     flex-direction: column;
