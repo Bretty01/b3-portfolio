@@ -1,14 +1,23 @@
 import logo from './logo.svg';
 import './App.scss';
-import {useRef} from "react"
+import {useRef, useEffect} from "react"
 import Skills from "./components/Skills/Skills"
 import Navigation from "./components/Navigation/Navigation"
 import Projects from "./components/Projects/Projects"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
+import WebSVG from "./components/Icons/WebSVG/WebSVG"
 
 function App() {
+    const navRefs = [
+        useRef(null),
+        useRef(null),
+        useRef(null),
+        useRef(null)
+    ]
+
+
     const handleEmail = (e) => {
         e.preventDefault()
         console.log("Hi, I should do something about this.")
@@ -18,12 +27,6 @@ function App() {
         console.log(event)
     }
 
-  const navRefs = [
-      useRef(null),
-      useRef(null),
-      useRef(null),
-      useRef(null)
-  ]
 
   return (
     <div className="main">
@@ -43,14 +46,17 @@ function App() {
         <div id="main-content">
             <div id="about" ref={navRefs[0]}>
                 <h2>The name is <strong>Brett</strong>! Welcome aboard!</h2>
-                <span>I'm a <strong>Full Stack Developer</strong> born and raised in Regina, Saskatchewan. While I
-                have grown up with a love for technology, I have further appreciated the art of web and software
-                through both the creativity and problem solving that programming offers.<br /><br />
+                <div>
+                    <WebSVG />
+                    <span>I'm a <strong>Full Stack Developer</strong> born and raised in Regina, Saskatchewan. While I
+                    have grown up with a love for technology, I have further appreciated the art of web and software
+                    through both the creativity and problem solving that programming offers.<br /><br />
 
-                I am always excited to learn new skills and refine my existing skills to further improve myself and
-                the people around me. Take a look around and see what I have to offer. Maybe you will get a good
-                impression and be inspired!
-                </span>
+                    I am always excited to learn new skills and refine my existing skills to further improve myself and
+                    the people around me. Take a look around and see what I have to offer. Maybe you will get a good
+                    impression and be inspired!
+                    </span>
+                </div>
             </div>
             <div id="skills" ref={navRefs[1]}  onScroll={handleScroll}>
                 <Skills />

@@ -48,7 +48,7 @@ const Skills = () => {
             </div>
             <div className="tab-body">
                 {currentTab.map(tab => {
-                    return <SkillStamp title={tab.title} image={tab.image} />
+                    return <SkillStamp title={tab.title} image={tab.image} key={tab.title}/>
                 })}
             </div>
         </div>

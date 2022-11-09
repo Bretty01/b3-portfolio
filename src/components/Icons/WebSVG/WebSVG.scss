@@ -1,0 +1,35 @@
+#line-1, #line-2, #line-3, #line-4, #line-5, #line-6, #checkmark {
+  opacity: 0;
+}
+.show {
+  animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  transform-origin: 40% 40%;
+}
+
+#checkmark.show {
+  animation: swing-in-top-fwd 0.6s both;
+  transform-origin: 0% 75%;
+}
+
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
