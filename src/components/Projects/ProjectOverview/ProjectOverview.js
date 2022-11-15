@@ -20,7 +20,7 @@ const ProjectOverview = (props) => {
                     <LaptopIcon />
                 </div>
                 <div>
-                    <div className="overview-description">{props.description || "Lorem ipsum dolor sit amet, " +
+                    <div className="overview-description">{props.longDescription || "Lorem ipsum dolor sit amet, " +
                         "consectetur adipiscing elit. Aenean pulvinar consequat neque, non placerat augue laoreet eget." +
                         " In ut mi sollicitudin, lacinia magna non, scelerisque elit. Integer ullamcorper erat id" +
                         " neque interdum convallis. Nulla id dapibus magna. Curabitur sit amet finibus ex. Aliquam" +

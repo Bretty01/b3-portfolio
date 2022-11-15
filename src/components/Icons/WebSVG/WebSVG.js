@@ -2,7 +2,6 @@ import "./WebSVG.scss"
 import {useRef, useEffect} from "react";
 const WebSVG = () => {
     const onceAnimationEnd = (ref) => {
-        console.log(ref)
         return new Promise(resolve => {
             const onAnimationEndCb = () => {
                 ref.current.removeEventListener('animationend', onAnimationEndCb);
