@@ -38,6 +38,14 @@
     min-height: 10%;
     display: flex;
     justify-content: space-around;
+    button:disabled {
+      box-shadow: none;
+      color: darkgrey;
+      border-color: darkgrey;
+      &:hover {
+        background-color: transparent;
+      }
+    }
   }
 }
 

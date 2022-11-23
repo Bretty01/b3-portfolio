@@ -11,6 +11,18 @@ import NodeJS from "../Icons/NodeJS/NodeJS"
 import REST from "../Icons/REST/REST"
 import PHP from "../Icons/PHP/PHP"
 import GraphQL from "../Icons/GraphQL/GraphQL"
+import Laravel from "../Icons/Laravel/Laravel"
+import Javascript from "../Icons/Javascript/Javascript"
+import Java from "../Icons/Java/Java"
+import Kotlin from "../Icons/Kotlin/Kotlin"
+import C from "../Icons/C/C"
+import CSharp from "../Icons/CSharp/CSharp"
+import Swift from "../Icons/Swift/Swift"
+import NPM from "../Icons/NPM/NPM"
+import Git from "../Icons/Git/Git"
+import Github from "../Icons/GitHub/Github"
+import AWS from "../Icons/AWS/AWS"
+import Jest from "../Icons/Jest/Jest"
 const Skills = () => {
     const tab1 = [
         {title: "React", image: <React />},
@@ -25,17 +37,23 @@ const Skills = () => {
         {title: "NodeJS", image: <NodeJS />},
         {title: "REST", image: <REST />},
         {title: "PHP", image: <PHP />},
-        {title: "GraphQL", image: <GraphQL />}
-
+        {title: "GraphQL", image: <GraphQL />},
+        {title: "Laravel", image: <Laravel />}
     ]
     const tab3 = [
-        {title: "Bootstrap", image: <Bootstrap />},
-        {title: "Bootstrap", image: <Bootstrap />},
-        {title: "Bootstrap", image: <Bootstrap />},
-        {title: "Bootstrap", image: <Bootstrap />}
+        {title: "Javascript", image: <Javascript />},
+        {title: "Java", image: <Java />},
+        {title: "Kotlin", image: <Kotlin />},
+        {title: "C", image: <C />},
+        {title: "C#", image: <CSharp />},
+        {title: "Swift", image: <Swift />}
     ]
     const tab4 = [
-
+        {title: "NPM", image: <NPM />},
+        {title: "Git", image: <Git />},
+        {title: "Github", image: <Github />},
+        {title: "AWS", image: <AWS />},
+        {title: "Jest", image: <Jest />}
     ]
     const [currentTab, setTab] = useState(tab1)
     return (

@@ -36,7 +36,7 @@
   width: 100%;
   height: 100%;
   top: 500px;
-  transition: top 0.5s;
+  transition: top 0.5s ease-in-out;
   &:hover {
     top: 0;
   }

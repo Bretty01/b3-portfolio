@@ -1,5 +1,5 @@
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import LaptopIcon from '@mui/icons-material/Laptop';
+import DesktopIcon from '../../Icons/DesktopIcon/DesktopIcon';
 import "./ProjectOverview.scss"
 const ProjectOverview = (props) => {
     const defaultSkills = [
@@ -17,7 +17,7 @@ const ProjectOverview = (props) => {
             </div>
             <div className="overview-body">
                 <div>
-                    <LaptopIcon />
+                    <DesktopIcon desktopImages={props.desktopImages}/>
                 </div>
                 <div>
                     <div className="overview-description">{props.longDescription || "Lorem ipsum dolor sit amet, " +
@@ -37,7 +37,7 @@ const ProjectOverview = (props) => {
                     <div className="overview-links">
                         <a href={props.buttons?.github}><button disabled={!props.buttons?.github}>
                             Github Page</button></a>
-                        <a href={props.buttons?.page}><button disabled={!props.buttons?.page}>
+                        <a href={props.buttons?.website}><button disabled={!props.buttons?.website}>
                             Access Site</button></a>
                     </div>
                 </div>
