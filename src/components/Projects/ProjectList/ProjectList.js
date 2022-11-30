@@ -1,13 +1,22 @@
 import projectInfo from "../ProjectInfo"
 import {useEffect, useState} from 'react'
+import {motion} from 'framer-motion'
 import "./ProjectList.scss"
 const ProjectList = (props) => {
     useEffect(() => console.log(projectInfo), [])
     return (
-        <div id="project-list">
+        <motion.div
+            initial={{ x: 2000 }}
+            animate={{ x: 0}}
+            exit={{ x: 2000 }}
+            transition={{duration: 0.5}}
+            id="project-list">
             {projectInfo.map(project => {
                 return (
-                    <div className="thumbnail" onClick={() => {
+                    <div
+                        className="thumbnail"
+                        key={project.name}
+                        onClick={() => {
                         props.setOverview(true)
                         props.setData({
                             title: project.name,
@@ -29,7 +38,7 @@ const ProjectList = (props) => {
 
                 )
             })}
-        </div>
+        </motion.div>
     )
 }
 export default ProjectList

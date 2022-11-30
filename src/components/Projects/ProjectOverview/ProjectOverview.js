@@ -1,5 +1,7 @@
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import DesktopIcon from '../../Icons/DesktopIcon/DesktopIcon';
+import MobileIcon from '../../Icons/MobileIcon/MobileIcon'
+import {motion} from 'framer-motion'
 import "./ProjectOverview.scss"
 const ProjectOverview = (props) => {
     const defaultSkills = [
@@ -10,7 +12,12 @@ const ProjectOverview = (props) => {
         "Ruby on Rails"
     ]
     return (
-        <div className="project-overview">
+        <motion.div
+            initial={{ x: 2000 }}
+            animate={{ x: 0}}
+            exit={{ x: 2000 }}
+            transition={{duration: 0.5}}
+            className="project-overview">
             <div className="overview-header">
                 <ArrowBackIcon  onClick={() => props.setOverview(false)}/>
                 <h3>{props.title || "Unnamed Project"}</h3>
@@ -18,6 +25,7 @@ const ProjectOverview = (props) => {
             <div className="overview-body">
                 <div>
                     <DesktopIcon desktopImages={props.desktopImages}/>
+                    <MobileIcon mobileImages={props.mobileImages}/>
                 </div>
                 <div>
                     <div className="overview-description">{props.longDescription || "Lorem ipsum dolor sit amet, " +
@@ -29,9 +37,9 @@ const ProjectOverview = (props) => {
                         "Donec convallis consectetur nisl, eget ornare est tempor eu."}</div>
                     <div className="overview-skills">
                         {props.skills ? props.skills.map(skill => {
-                            return <div className="skill-bubble">{skill}</div>})
+                            return <div className="skill-bubble" key={skill}>{skill}</div>})
                         : defaultSkills.map(skill => {
-                            return <div className="skill-bubble">{skill}</div>})
+                            return <div className="skill-bubble" key={skill}>{skill}</div>})
                         }
                     </div>
                     <div className="overview-links">
@@ -42,7 +50,7 @@ const ProjectOverview = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 export default ProjectOverview
