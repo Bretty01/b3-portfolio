@@ -15,14 +15,14 @@ const Projects = () => {
             <h1>Projects</h1>
             <AnimatePresence mode="wait">
                 {!isOverview ? <ProjectList setOverview={setOverview} setData={setData}/> :
-                    <ProjectOverview key={overviewData.title}
+                    <ProjectOverview key={overviewData?.title}
                                      setOverview={setOverview}
-                                     title={overviewData.title}
-                                     longDescription={overviewData.longDescription}
-                                     skills={overviewData.skills}
-                                     mobileImages={overviewData.mobileImages}
-                                     desktopImages={overviewData.desktopImages}
-                                     buttons={overviewData.buttons}/>}
+                                     title={overviewData?.title}
+                                     longDescription={overviewData?.longDescription}
+                                     skills={overviewData?.skills}
+                                     mobileImages={overviewData?.mobileImages}
+                                     desktopImages={overviewData?.desktopImages}
+                                     buttons={overviewData?.buttons}/>}
             </AnimatePresence>
 
         </div>

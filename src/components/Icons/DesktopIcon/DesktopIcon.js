@@ -15,7 +15,8 @@ const DesktopIcon = (props) => {
                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                     <use xlinkHref="#image0_4_6" transform="scale(0.00294118 0.0046729)"/>
                 </pattern>
-                <image id="image0_4_6" data-name="google-d.png" width="340" height="214" xlinkHref={props.desktopImages[0]} />
+                <image id="image0_4_6" data-name="google-d.png" width="340" height="214" xlinkHref={props?.desktopImages &&
+                    props?.desktopImages[0]} />
             </defs>
         </svg>
 

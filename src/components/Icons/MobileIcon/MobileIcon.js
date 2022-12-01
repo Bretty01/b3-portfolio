@@ -16,7 +16,7 @@ const MobileIcon = (props) => {
                     <use xlinkHref="#image0_1_2" transform="translate(-0.00325137) scale(0.00222678 0.00125)"/>
                 </pattern>
                 <image id="image0_1_2" data-name="google-m.png" width="452" height="800"
-                       xlinkHref={props.mobileImages[0]}/>
+                       xlinkHref={props.mobileImages && props?.mobileImages[0]}/>
             </defs>
         </svg>
 

@@ -11,7 +11,7 @@
   justify-content: center;
   flex-direction: column;
 
-  div {
+  > div {
     display: flex;
     flex-direction: row;
 
@@ -24,10 +24,29 @@
     position: absolute;
     top: 10px;
     right: 10px;
+    a {
+      color: white;
+      &:visited{
+        color: white;
+      }
+    }
     svg {
       height: 36px;
       width: 36px;
-      padding: 0 5px
+      padding: 0 5px;
+      &:hover {
+        fill: var(--accent-secondary);
+      }
+      &:hover + div{
+        opacity: 1;
+      }
+    }
+    > a{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 46px;
+      text-decoration: none;
     }
   }
 }
@@ -117,4 +136,30 @@ form {
   textarea {
     height: 300px;
   }
+}
+.speech-bubble {
+  position: relative;
+  background: var(--accent-secondary);
+  border-radius: .4em;
+  top: 10px;
+  right: 8px;
+  width: max-content;
+  padding: 0.25em 0.5em;
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 15px;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-bottom-color: var(--accent-secondary);
+  border-top: 0;
+  border-right: 0;
+  margin-left: -3.5px;
+  margin-top: -7px;
 }

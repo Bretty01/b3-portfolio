@@ -2,7 +2,6 @@ import "./Navigation.scss"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect, useRef} from 'react'
-AOS.init();
 const Navigation = (props) => {
     const aboutRef = useRef(null)
     const skillsRef = useRef(null)
@@ -16,11 +15,12 @@ const Navigation = (props) => {
             rect.bottom <= ((window.innerHeight + (rect.bottom - rect.top)) ||
                 document.documentElement.clientHeight  + (rect.bottom - rect.top)) &&
             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-
         );
     }
 
     useEffect(() => {
+        AOS.init();
+        AOS.refresh();
         document.addEventListener('scroll', function () {
             if(isInViewport(0)) {
                 aboutRef.current.className = "active"
@@ -47,6 +47,7 @@ const Navigation = (props) => {
                 contactRef.current.className = "active"
             }
         })
+        props.navrefs[0].current?.scrollIntoView()
     }, [])
 
     return (

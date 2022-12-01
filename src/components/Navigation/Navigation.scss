@@ -3,8 +3,11 @@
   height: 100vh;
   margin-right: auto;
   position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   background-color: var(--basic-primary);
+  padding: 0 !important;
   .active {
     background-color: var(--accent-secondary);
     color: var(--basic-primary);
