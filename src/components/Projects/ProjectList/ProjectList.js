@@ -3,7 +3,6 @@ import {useEffect, useState} from 'react'
 import {motion} from 'framer-motion'
 import "./ProjectList.scss"
 const ProjectList = (props) => {
-    useEffect(() => console.log(projectInfo), [])
     return (
         <motion.div
             initial={{ x: 2000 }}

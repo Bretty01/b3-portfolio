@@ -24,6 +24,7 @@ import Github from "../Icons/GitHub/Github"
 import AWS from "../Icons/AWS/AWS"
 import Jest from "../Icons/Jest/Jest"
 const Skills = () => {
+    //Standard variables
     const tab1 = [
         {title: "React", image: <React />},
         {title: "Redux", image: <Redux />},
@@ -55,6 +56,7 @@ const Skills = () => {
         {title: "AWS", image: <AWS />},
         {title: "Jest", image: <Jest />}
     ]
+    //useState variables
     const [currentTab, setTab] = useState(tab1)
     return (
         <div>

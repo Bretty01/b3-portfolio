@@ -29,4 +29,13 @@
       cursor: pointer;
     }
   }
+  > .social-icons {
+    flex-direction: row;
+    bottom: 40px;
+    top: initial;
+    height: auto;
+    .speech-bubble {
+      display: none;
+    }
+  }
 }

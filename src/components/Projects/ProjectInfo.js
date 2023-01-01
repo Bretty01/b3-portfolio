@@ -27,5 +27,21 @@ const projectInfo = [
       "website": "https://www.tinawatersartist.com"
     }
   },
+  {
+    "name": "Personal Website",
+    "shortDescription": "My website for showing off everything me.",
+    "longDescription" : "After taking a couple years of learning web developing on the side, it is only natural that I " +
+        "put my creativity on to the mural known as the internet. This website is the perfect means of showing off all " +
+        "the skills I have generated in the most refined way possible as well as learn a couple new things. This website " +
+        "is more frontend focused utilitizing various HTML, CSS(namely SASS), and JS to bring the current flare that I " +
+        "desire.",
+    "skills": ["React", "HTML5", "CSS3", "SCSS", "NodeJS"],
+    "logoLink": "/google-d.png",
+    "mobileImages": ["/google-m.png"],
+    "desktopImages": ["/google-d.png"],
+    "buttons": {
+      "github": "https://github.com/Bretty01/coveted-cow/tree/master"
+    }
+  },
 ]
 export default projectInfo
