@@ -2,9 +2,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
 import "./Socials.scss"
-const Socials = () => {
+const Socials = (props) => {
     return (
-        <div className="social-icons">
+        <div className="social-icons" {...props}>
             <a href="https://github.com/Bretty01">
                 <GitHubIcon />
                 <div className="speech-bubble">

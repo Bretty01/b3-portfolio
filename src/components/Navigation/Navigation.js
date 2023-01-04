@@ -60,8 +60,8 @@ const Navigation = (props) => {
     }, [])
 
     return (
-        <div className="nav" data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
-            <div>
+        <div className="nav" >
+            <div data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
                 <h2 onClick={() => props.navrefs[0].current?.scrollIntoView({behavior: "smooth"})}
                     ref={aboutRef}>About</h2>
                 <h2 onClick={() => props.navrefs[1].current?.scrollIntoView({behavior: "smooth"})}
@@ -71,7 +71,7 @@ const Navigation = (props) => {
                 <h2 onClick={() => props.navrefs[3].current?.scrollIntoView({behavior: "smooth"})}
                     ref={contactRef}>Contact Me</h2>
             </div>
-            <Socials />
+            <Socials data-aos="fade-up" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom"/>
         </div>
     )
 

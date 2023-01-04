@@ -1,7 +1,6 @@
 .nav {
   width: 20%;
   height: 100vh;
-  z-index: 5;
   margin-right: auto;
   position: fixed;
   top: 0;
@@ -22,6 +21,7 @@
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    z-index: 5;
     h2 {
       padding: 5px 0 5px 1em;
       border-right: 5px solid white;
@@ -42,11 +42,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #main-content > .nav {
+    min-height: 0;
+  }
   .nav{
-    width: 100vw;
-    height: 20vh;
+    width: 0;
+    height: 0;
     right: auto;
     background-color: transparent;
+    position: static;
     > div {
       height: auto;
       flex-direction: row;
@@ -55,6 +59,14 @@
       background-color: var(--basic-primary);
       padding: 0.5em 0;
       width: 100%;
+      position: fixed;
+      &:nth-child(1){
+        top:0;
+        right: 1000px;
+        &.aos-animate {
+          right: 0;
+        }
+      }
       h2 {
         width: 15%;
         font-size: 10px;
