@@ -9,6 +9,7 @@ import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import SimpleBar from 'simplebar-react';
 import Socials from "./components/Socials/Socials"
 import CustomScrollbar from "./components/CustomScrollbar/CustomScrollbar"
+import Contact from "./components/Contact/Contact"
 import 'simplebar-react/dist/simplebar.min.css';
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
       <CustomScrollbar showContent={showContent}>
         <div className="main">
             <div className="landing">
-                <div>
+                <div className="landing-title">
                     <h1>Brett Orban<strong>.</strong></h1>
                     <h2>Success Through Hard Work and Dedication!</h2>
                 </div>
@@ -74,13 +75,7 @@ function App() {
                         <Projects />
                     </div>
                     <div id="contact" ref={navRefs[3]}>
-                        <h1>Contact Me</h1>
-                        <form onSubmit={handleEmail}>
-                            <input type="text" placeholder="Enter your name here..."/>
-                            <input type="email" placeholder="Enter your email here..."/>
-                            <textarea placeholder="Message content"/>
-                            <input type="submit" value="submit"/>
-                        </form>
+                        <Contact />
                     </div>
                 </div>
     }

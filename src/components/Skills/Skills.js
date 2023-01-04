@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import "./Skills.scss"
 import SkillStamp from "../SkillStamp/SkillStamp"
 import React from "../Icons/React/React"
 import Redux from "../Icons/Redux/Redux"
