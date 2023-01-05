@@ -20,10 +20,10 @@ code {
 }
 
 :root {
-  --basic-primary: black;
-  --basic-secondary: white;
-  --accent-secondary: #21dd21;
-  --accent-primary: #001a00;
+  --basic-dark: black;
+  --basic-light: white;
+  --accent-light: #86cce4;
+  --accent-dark: #22343a;
 }
 
 h1, h2, h3 {
@@ -45,20 +45,20 @@ h3 {
 
 button {
   padding: 0.5em 1.5em;
-  border: 2px solid var(--accent-secondary);
+  border: 2px solid var(--accent-light);
   border-radius: 0.3em;
   background-color: transparent;
-  color: var(--basic-secondary);
+  color: var(--basic-light);
   font-size: 1.3em;
   font-weight: 700;
-  box-shadow: 0 0 10px 0 var(--accent-secondary) inset, 0 0 10px 4px var(--accent-secondary);
+  box-shadow: 0 0 10px 0 var(--accent-light) inset, 0 0 10px 4px var(--accent-light);
   transition: all 150ms ease-in-out;
 }
 button:hover {
-  box-shadow: 0 0 40px 40px var(--accent-secondary) inset, 0 0 0 0 var(--accent-secondary);
-  background-color: var(--accent-secondary);
+  box-shadow: 0 0 40px 40px var(--accent-light) inset, 0 0 0 0 var(--accent-light);
+  background-color: var(--accent-light);
 }
 
 strong {
-  color: var(--accent-secondary);
+  color: var(--accent-light);
 }

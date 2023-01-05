@@ -109,7 +109,7 @@ export default function CustomScrollbar({ children, className, ...restProps }) {
         <div
             className={"scrollhost-container"}
             onMouseOver={handleMouseOver}
-            onMouseLeave={handleMouseOut}
+            onMouseLeave={e =>handleMouseUp(e)}
             onMouseUp={e => handleMouseUp(e)}
             onMouseMove={e => handleDocumentMouseMove(e)}
         >
@@ -120,7 +120,7 @@ export default function CustomScrollbar({ children, className, ...restProps }) {
             >
                 {children}
             </div>
-            <div className={"scroll-bar"} style={{ opacity: hovering ? 0.8 : 0 }}>
+            <div className={"scroll-bar"} style={{ opacity: restProps.showContent ? (hovering ? 0.8 : 0) : 0 }}>
                 <div
                     className={"scroll-thumb"}
                     style={{ height: scrollBoxHeight, top: scrollBoxTop }}

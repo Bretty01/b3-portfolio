@@ -1,5 +1,5 @@
 .main {
-  background-color: var(--accent-primary);
+  background-color: var(--accent-dark);
   min-height: 100vh;
   color: white;
   overflow-x: hidden;
@@ -17,9 +17,11 @@
       flex-direction: column;
     }
     h1 {
-      font-size: 150px;
       margin: 0;
+      position: relative;
+      font-size: 150px;
     }
+
   }
 
 }
@@ -105,4 +107,3 @@
     }
   }
 }
-

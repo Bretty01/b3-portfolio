@@ -13,7 +13,7 @@
     width: 36px;
     padding: 0 5px;
     &:hover {
-      fill: var(--accent-secondary);
+      fill: var(--accent-light);
     }
     &:hover + div{
       opacity: 1;
@@ -29,7 +29,7 @@
 }
 .speech-bubble {
   position: relative;
-  background: var(--accent-secondary);
+  background: var(--accent-light);
   border-radius: .4em;
   top: 10px;
   right: 8px;
@@ -47,7 +47,7 @@
   width: 0;
   height: 0;
   border: 7px solid transparent;
-  border-bottom-color: var(--accent-secondary);
+  border-bottom-color: var(--accent-light);
   border-top: 0;
   border-right: 0;
   margin-left: -3.5px;

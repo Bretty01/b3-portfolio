@@ -6,7 +6,6 @@ import Navigation from "./components/Navigation/Navigation"
 import Projects from "./components/Projects/Projects"
 import WebSVG from "./components/Icons/WebSVG/WebSVG"
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-import SimpleBar from 'simplebar-react';
 import Socials from "./components/Socials/Socials"
 import CustomScrollbar from "./components/CustomScrollbar/CustomScrollbar"
 import Contact from "./components/Contact/Contact"
@@ -22,6 +21,7 @@ function App() {
         useRef(null),
         useRef(null)
     ]
+
     const arrowRef = useRef(null)
 
     //Shows the main content div and hides the arrow prompt on the landing page.

@@ -15,12 +15,12 @@
 }
 
 .scroll-thumb {
-  background-color: var(--basic-secondary);
+  background-color: var(--basic-light);
   position: relative;
   border-radius: 5px;
   cursor: pointer;
   &:active{
-    background-color: var(--accent-secondary);
+    background-color: var(--accent-light);
   }
 }
 
