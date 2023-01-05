@@ -62,10 +62,6 @@
       position: fixed;
       &:nth-child(1){
         top:0;
-        right: 1000px;
-        &.aos-animate {
-          right: 0;
-        }
       }
       h2 {
         width: 15%;

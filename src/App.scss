@@ -1,5 +1,5 @@
 .main {
-  background-color: #000000;
+  background-color: var(--accent-primary);
   min-height: 100vh;
   color: white;
   overflow-x: hidden;
@@ -9,16 +9,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-
+  flex-direction: row;
   > div {
     display: flex;
     flex-direction: row;
-
-    h2 {
-      max-width: 200px;
+    &:nth-child(1) {
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 150px;
+      margin: 0;
     }
   }
+
 }
 
 #about {
@@ -102,3 +105,4 @@
     }
   }
 }
+

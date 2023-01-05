@@ -8,6 +8,8 @@ const Navigation = (props) => {
     const skillsRef = useRef(null)
     const projectsRef = useRef(null)
     const contactRef = useRef(null)
+    const navSectionRef = useRef(null)
+    const navBlockRef = useRef(null)
     /**
      * Function: isInViewport
      * Purpose: Check if the section submitted is in sight of the user and return a boolean based on result.
@@ -24,6 +26,20 @@ const Navigation = (props) => {
                 document.documentElement.clientHeight  + (rect.bottom - rect.top)) &&
             Math.floor(rect.right) <= (window.innerWidth || document.documentElement.clientWidth)
         );
+    }
+
+    const changeNavAnimation = () => {
+        console.log("I am here")
+        if(window.innerWidth < 768) {
+            navSectionRef.current.setAttribute("data-aos", "fade-down")
+            navBlockRef.current.className = "nav"
+            navBlockRef.current.setAttribute("data-aos", "")
+        } else {
+            navSectionRef.current.setAttribute("data-aos", "fade-right")
+            navBlockRef.current.className = "nav aos-init"
+            navBlockRef.current.setAttribute("data-aos", "fade-right")
+        }
+        AOS.refresh()
     }
 
     useEffect(() => {
@@ -56,12 +72,14 @@ const Navigation = (props) => {
                 contactRef.current.className = "active"
             }
         })
+        window.addEventListener('resize', changeNavAnimation)
+        changeNavAnimation()
         props.navrefs[0].current?.scrollIntoView({behavior: "smooth"})
     }, [])
 
     return (
-        <div className="nav" >
-            <div data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
+        <div className="nav" ref={navBlockRef} data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
+            <div ref={navSectionRef} data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
                 <h2 onClick={() => props.navrefs[0].current?.scrollIntoView({behavior: "smooth"})}
                     ref={aboutRef}>About</h2>
                 <h2 onClick={() => props.navrefs[1].current?.scrollIntoView({behavior: "smooth"})}

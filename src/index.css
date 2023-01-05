@@ -23,11 +23,11 @@ code {
   --basic-primary: black;
   --basic-secondary: white;
   --accent-secondary: #21dd21;
-  --accent-primary: #002800;
+  --accent-primary: #001a00;
 }
 
 h1, h2, h3 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
   color: white;
 }
 

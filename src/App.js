@@ -41,10 +41,9 @@ function App() {
         <div className="main">
             <div className="landing">
                 <div className="landing-title">
-                    <h1>Brett Orban<strong>.</strong></h1>
-                    <h2>Success Through Hard Work and Dedication!</h2>
+                    <h1>Brett</h1>
+                    <h1>Orban</h1>
                 </div>
-                <h3>Full Stack Developer <strong>|</strong> Software Developer <strong>|</strong> Fun Guy</h3>
                 <div id="display-main-content" ref={arrowRef} onClick={() => showMainContent()}>
                     <span>Click here to continue</span>
                     <ArrowDownwardIcon />
