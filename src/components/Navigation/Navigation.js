@@ -87,7 +87,7 @@ const Navigation = (props) => {
                 <h2 onClick={() => props.navrefs[2].current?.scrollIntoView({behavior: "smooth"})}
                     ref={projectsRef}>Projects</h2>
                 <h2 onClick={() => props.navrefs[3].current?.scrollIntoView({behavior: "smooth"})}
-                    ref={contactRef}>Contact Me</h2>
+                    ref={contactRef}>Contact</h2>
             </div>
             <Socials data-aos="fade-up" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom"/>
         </div>
