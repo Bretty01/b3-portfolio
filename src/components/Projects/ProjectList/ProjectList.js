@@ -32,6 +32,9 @@ const ProjectList = (props) => {
                         </div>
                         <div className="thumbnail-icon">
                             <img src={project.logoLink}/>
+                            <div>
+                                <span className="project-name">{project.name}</span>
+                            </div>
                         </div>
                     </div>
 

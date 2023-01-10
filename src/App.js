@@ -39,13 +39,13 @@ function App() {
   return (
       <CustomScrollbar showContent={showContent}>
         <div className="main">
-            <div className="landing">
+            <div className="landing" style={{marginBottom : (showContent ? "100px" : 0)}}>
                 <div className="landing-title">
-                    <h1>Brett</h1>
-                    <h1>Orban</h1>
+                    <h2><strong>Full Stack Developer</strong></h2>
+                    <h1>Brett Orban</h1>
                 </div>
                 <div id="display-main-content" ref={arrowRef} onClick={() => showMainContent()}>
-                    <span>Click here to continue</span>
+                    <span>Click here to learn more!</span>
                     <ArrowDownwardIcon />
                 </div>
                 <Socials />
@@ -70,10 +70,10 @@ function App() {
                     <div id="skills" ref={navRefs[1]}>
                         <Skills />
                     </div>
-                    <div id="projects" ref={navRefs[2]}>
+                    <div id="projects" ref={navRefs[2]} style={{backgroundColor: "var(--basic-dark)"}}>
                         <Projects />
                     </div>
-                    <div id="contact" ref={navRefs[3]}>
+                    <div id="contact" ref={navRefs[3]}  style={{backgroundColor: "var(--accent-dark)"}}>
                         <Contact />
                     </div>
                 </div>

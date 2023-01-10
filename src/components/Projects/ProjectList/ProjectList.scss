@@ -1,7 +1,9 @@
 #project-list {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 30vh 30vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20vh 20vh;
+  row-gap: 5%;
+  column-gap: 5%;
 }
 
 .thumbnail {
@@ -10,9 +12,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  &:hover > .thumbnail-overlay {
-    top:0;
-  }
+  background-color: var(--accent-dark);
 }
 
 .thumbnail-icon, .thumbnail-overlay {

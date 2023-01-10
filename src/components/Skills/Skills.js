@@ -61,6 +61,7 @@ const Skills = () => {
     const [currentTab, setTab] = useState(tab1)
     return (
         <div>
+            <h1>Skills</h1>
             <div className="tab-head">
                 <button onClick={() => {setTab(tab1)}}>Frontend</button>
                 <button onClick={() => {setTab(tab2)}}>Backend</button>

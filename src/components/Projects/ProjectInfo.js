@@ -5,7 +5,7 @@ const projectInfo = [
     "shortDescription": "Test",
     "longDescription" : "This is a test JSON",
     "skills": ["React", "REST/Express", "MongoDB", "HTML5", "CSS3", "NodeJS"],
-    "logoLink": "/cow.jpg",
+    "logoLink": "/projectLogos/covetedcow.svg",
     "mobileImages": ["/google-m.png"],
     "desktopImages": ["/google-d.png"],
     "buttons": {

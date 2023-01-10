@@ -22,12 +22,12 @@ code {
 :root {
   --basic-dark: black;
   --basic-light: white;
-  --accent-light: #86cce4;
-  --accent-dark: #22343a;
+  --accent-light: #ff503c;
+  --accent-dark: #002033;
 }
 
 h1, h2, h3 {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: white;
 }
 
