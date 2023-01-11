@@ -6,8 +6,30 @@
   top: 0;
   left: 0;
   display: flex;
+  justify-content: center;
   background-color: var(--basic-dark);
   padding: 0 !important;
+  #b3-logo {
+    position: absolute;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    > * {
+      transition: all 500ms;
+    }
+  }
+  #b3-logo:hover  {
+    > #hidden-accent{
+      opacity: 1;
+      transform: translate(-0.05004647px,-3.0363773px);
+    }
+    #accent {
+      opacity: 0;
+      transform: translate(7.6330846px,-0.18159204px)
+    }
+  }
   .active {
     color: var(--accent-light);
   }

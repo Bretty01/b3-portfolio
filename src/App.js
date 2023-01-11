@@ -19,6 +19,7 @@ function App() {
         useRef(null),
         useRef(null),
         useRef(null),
+        useRef(null),
         useRef(null)
     ]
 
@@ -39,7 +40,7 @@ function App() {
   return (
       <CustomScrollbar showContent={showContent}>
         <div className="main">
-            <div className="landing" style={{marginBottom : (showContent ? "100px" : 0)}}>
+            <div ref={navRefs[4]} className="landing" style={{marginBottom : (showContent ? "100px" : 0)}}>
                 <div className="landing-title">
                     <h2><strong>Full Stack Developer</strong></h2>
                     <h1>Brett Orban</h1>

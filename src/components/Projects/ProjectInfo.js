@@ -5,7 +5,7 @@ const projectInfo = [
     "shortDescription": "Test",
     "longDescription" : "This is a test JSON",
     "skills": ["React", "REST/Express", "MongoDB", "HTML5", "CSS3", "NodeJS"],
-    "logoLink": "/projectLogos/covetedcow.svg",
+    "logoLink": 0,
     "mobileImages": ["/google-m.png"],
     "desktopImages": ["/google-d.png"],
     "buttons": {
@@ -19,7 +19,7 @@ const projectInfo = [
         "my other websites as it takes into consideration what my client needs. This includes creating a backend to " +
         "display all of Tina's artwork and a custom designed CMS to edit the information on the website.",
     "skills": ["React", "AWS", "GraphQL", "ReactQuery", "HTML5", "CSS3", "NodeJS", "SEO"],
-    "logoLink": "/Sunflowers.jpg",
+    "logoLink": 1,
     "mobileImages": ["/twa-m-01.jpg"],
     "desktopImages": ["/twa-d-01.jpg"],
     "buttons": {
@@ -36,7 +36,6 @@ const projectInfo = [
         "is more frontend focused utilitizing various HTML, CSS(namely SASS), and JS to bring the current flare that I " +
         "desire.",
     "skills": ["React", "HTML5", "CSS3", "SCSS", "NodeJS"],
-    "logoLink": "/google-d.png",
     "mobileImages": ["/google-m.png"],
     "desktopImages": ["/google-d.png"],
     "buttons": {

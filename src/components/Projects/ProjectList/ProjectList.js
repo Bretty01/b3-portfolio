@@ -2,7 +2,14 @@ import projectInfo from "../ProjectInfo"
 import {useEffect, useState} from 'react'
 import {motion} from 'framer-motion'
 import "./ProjectList.scss"
+import CovetedCow from "../../Icons/ProjectLogos/CovetedCow"
+import PaintBrush from "../../Icons/ProjectLogos/PaintBrush"
 const ProjectList = (props) => {
+    const svgLinks = [
+        <CovetedCow />,
+        <PaintBrush />
+    ]
+
     return (
         <motion.div
             initial={{ x: 2000 }}
@@ -26,16 +33,12 @@ const ProjectList = (props) => {
                             buttons: project.buttons
                         })
                     }}>
-                        <div className="thumbnail-overlay">
-                            <p>{project.name}</p>
+                        {svgLinks[project.logoLink]}
+                        <div>
+                            <h3 className="project-name"><strong>{project.name}</strong></h3>
                             <p>{project.shortDescription}</p>
                         </div>
-                        <div className="thumbnail-icon">
-                            <img src={project.logoLink}/>
-                            <div>
-                                <span className="project-name">{project.name}</span>
-                            </div>
-                        </div>
+
                     </div>
 
                 )

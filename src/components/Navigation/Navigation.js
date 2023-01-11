@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {useEffect, useRef} from 'react'
 import Socials from "../Socials/Socials"
+import B3Logo from "../Icons/B3Logo/B3Logo"
 const Navigation = (props) => {
     const aboutRef = useRef(null)
     const skillsRef = useRef(null)
@@ -29,7 +30,6 @@ const Navigation = (props) => {
     }
 
     const changeNavAnimation = () => {
-        console.log("I am here")
         if(window.innerWidth < 768) {
             navSectionRef.current.setAttribute("data-aos", "fade-down")
             navBlockRef.current.className = "nav"
@@ -79,6 +79,7 @@ const Navigation = (props) => {
 
     return (
         <div className="nav" ref={navBlockRef} data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
+            <B3Logo onClick={() => props.navRefs[4].current?.scrollIntoView({behavior: "smooth"})}/>
             <div ref={navSectionRef} data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
                 <h2 onClick={() => props.navrefs[0].current?.scrollIntoView({behavior: "smooth"})}
                     ref={aboutRef}>About</h2>
