@@ -4,10 +4,12 @@ import {motion} from 'framer-motion'
 import "./ProjectList.scss"
 import CovetedCow from "../../Icons/ProjectLogos/CovetedCow"
 import PaintBrush from "../../Icons/ProjectLogos/PaintBrush"
+import Website from "../../Icons/ProjectLogos/Website"
 const ProjectList = (props) => {
     const svgLinks = [
         <CovetedCow />,
-        <PaintBrush />
+        <PaintBrush />,
+        <Website />
     ]
 
     return (

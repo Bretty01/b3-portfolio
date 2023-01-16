@@ -79,7 +79,7 @@ const Navigation = (props) => {
 
     return (
         <div className="nav" ref={navBlockRef} data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
-            <B3Logo onClick={() => props.navRefs[4].current?.scrollIntoView({behavior: "smooth"})}/>
+            <B3Logo onClick={() => props.navrefs[4].current?.scrollIntoView({behavior: "smooth"})}/>
             <div ref={navSectionRef} data-aos="fade-right" data-aos-anchor="#about" data-aos-anchor-placement="center-bottom">
                 <h2 onClick={() => props.navrefs[0].current?.scrollIntoView({behavior: "smooth"})}
                     ref={aboutRef}>About</h2>

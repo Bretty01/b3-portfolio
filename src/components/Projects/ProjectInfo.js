@@ -36,6 +36,7 @@ const projectInfo = [
         "is more frontend focused utilitizing various HTML, CSS(namely SASS), and JS to bring the current flare that I " +
         "desire.",
     "skills": ["React", "HTML5", "CSS3", "SCSS", "NodeJS"],
+    "logoLink": 2,
     "mobileImages": ["/google-m.png"],
     "desktopImages": ["/google-d.png"],
     "buttons": {
