@@ -1,13 +1,20 @@
 .skill-stamp{
-    padding-top: 1rem;
+  background-color: var(--accent-light);
+  padding: 15%;
+  clip-path: circle(40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
     > *{
       display: flex;
       align-items: center;
       justify-content: center;
+      fill: var(--basic-light);
+      color: var(--basic-light);
     }
     :nth-child(1){
       width: 75%;
       height: 60%;
-      margin: auto;
+      margin: 0 auto;
     }
 }

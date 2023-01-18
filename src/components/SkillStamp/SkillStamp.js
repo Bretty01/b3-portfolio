@@ -6,7 +6,7 @@ const SkillStamp = (props) => {
     return (
         <div className="skill-stamp">
             {props.image}
-            <p>{props.title}</p>
+            <span>{props.title}</span>
         </div>
     )
 }

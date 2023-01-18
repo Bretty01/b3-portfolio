@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import {useRef, useEffect, useState} from "react"
 import Skills from "./components/Skills/Skills"
