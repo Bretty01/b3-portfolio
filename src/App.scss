@@ -2,7 +2,7 @@
   background-color: var(--accent-dark);
   min-height: 100vh;
   color: white;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .landing {
   height: 100vh;
@@ -60,21 +60,14 @@
   > div {
     min-height: 100vh;
     padding: 60px 5% 0;
-    &:nth-child(n+2) {
-      --size: 30px;
-      --R: calc(var(--size)*1.28);
-      mask:
-              radial-gradient(var(--R) at 50% calc(1.8*var(--size)),#000 99%,#0000 101%)
-              calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
-              radial-gradient(var(--R) at 50% calc(-.8*var(--size)),#0000 99%,#000 101%)
-              50% var(--size)/calc(4*var(--size)) 100% repeat-x;
+    &:nth-child(n + 2) {
       width: 70%;
       margin-left: auto;
-      margin-top: -50px;
+      padding-bottom: 60px;
+      margin-bottom: -60px;
       > *:nth-child(1) {
         margin-top: 30px;
       }
-
     }
   }
 
