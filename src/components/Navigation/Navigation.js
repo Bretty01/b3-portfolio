@@ -24,14 +24,19 @@ const Navigation = (props) => {
       rect.top >= 0 &&
       rect.left >= 0 &&
       rect.bottom <=
-        (window.innerHeight + (rect.bottom - rect.top) ||
+        (window.innerHeight + (rect.bottom - rect.top) / 2 ||
           document.documentElement.clientHeight +
-            (rect.bottom - rect.top - 500)) &&
+            (rect.bottom - rect.top) / 2) &&
       Math.floor(rect.right) <=
         (window.innerWidth || document.documentElement.clientWidth)
     );
   };
 
+  /**
+   * Function: changeNavAnimation
+   * Purpose: Check the screen size. If its mobile or tablet, do the fade-down animation. Otherwise do the
+   * fade-right animation.
+   */
   const changeNavAnimation = () => {
     if (window.innerWidth < 768) {
       navSectionRef.current.setAttribute("data-aos", "fade-down");
