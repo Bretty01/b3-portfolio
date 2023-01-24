@@ -59,20 +59,26 @@ const Skills = () => {
     ]
     //useState variables
     const [currentTab, setTab] = useState(tab1)
+
+    const SkillSection = (props) => {
+        return (
+            <div className="skill-section">
+                <h2>{props.header}</h2>
+                {props.section.map(stamp => {
+                    return (
+                        <SkillStamp title={stamp.title} image={stamp.image} key={stamp.title}/>
+                    )
+                })}
+            </div>
+        )
+    }
     return (
         <div>
             <h1>Skills</h1>
-            <div className="tab-head">
-                <button onClick={() => {setTab(tab1)}}>Frontend</button>
-                <button onClick={() => {setTab(tab2)}}>Backend</button>
-                <button onClick={() => {setTab(tab3)}}>Languages</button>
-                <button onClick={() => {setTab(tab4)}}>Tools</button>
-            </div>
-            <div className="tab-body">
-                {currentTab.map(tab => {
-                    return <SkillStamp title={tab.title} image={tab.image} key={tab.title}/>
-                })}
-            </div>
+            <SkillSection header="Frontend" section={tab1}/>
+            <SkillSection header="Backend" section={tab2}/>
+            <SkillSection header="Languages" section={tab3}/>
+            <SkillSection header="Tools" section={tab4}/>
         </div>
     )
 }

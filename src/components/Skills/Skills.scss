@@ -1,21 +1,22 @@
 #skills {
   background-color: var(--accent-dark);
   > div {
-    margin: 0 10%;
     min-height: 300px;
-    border: 1px solid white;
   }
 }
-.tab-head button{
-    background-color: black;
-    color: white;
-    width: 25%;
-    height: 80px;
-    border: 1px solid white;
-}
-.tab-body{
+
+.skill-section{
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  grid-template-areas: "header header header header header header";
+  padding: 1em 0;
+  > h2 {
+    grid-area: header;
+    margin: auto
+  }
+  span {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 425px) {

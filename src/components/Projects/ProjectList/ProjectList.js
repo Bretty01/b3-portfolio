@@ -4,9 +4,10 @@ import "./ProjectList.scss";
 import CovetedCow from "../../Icons/ProjectLogos/CovetedCow";
 import PaintBrush from "../../Icons/ProjectLogos/PaintBrush";
 import Website from "../../Icons/ProjectLogos/Website";
+import Bread from "../../Icons/ProjectLogos/Bread";
 const ProjectList = (props) => {
   //An array of svg components that are to be rendered with each project.
-  const svgLinks = [<CovetedCow />, <PaintBrush />, <Website />];
+  const svgLinks = [<CovetedCow />, <PaintBrush />, <Website />, <Bread />];
 
   return (
     <motion.div
