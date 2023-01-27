@@ -24,6 +24,7 @@ import Git from "../Icons/Git/Git"
 import Github from "../Icons/GitHub/Github"
 import AWS from "../Icons/AWS/AWS"
 import Jest from "../Icons/Jest/Jest"
+import {motion} from "framer-motion"
 const Skills = () => {
     //Standard variables
     const tab1 = [
@@ -57,19 +58,38 @@ const Skills = () => {
         {title: "AWS", image: <AWS />},
         {title: "Jest", image: <Jest />}
     ]
+
+    const container = {
+        hidden: { opacity: 1, scale: 0 },
+        visible: {
+            opacity: 1,
+            scale: 1,
+            transition: {
+                when: "beforeChildren",
+                staggerChildren: 0.3
+            }
+        }
+    }
+
     //useState variables
     const [currentTab, setTab] = useState(tab1)
 
     const SkillSection = (props) => {
         return (
-            <div className="skill-section">
+            <motion.div
+                variants={container}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{once: true}}
+
+                className="skill-section">
                 <h2>{props.header}</h2>
                 {props.section.map(stamp => {
                     return (
                         <SkillStamp title={stamp.title} image={stamp.image} key={stamp.title}/>
                     )
                 })}
-            </div>
+            </motion.div>
         )
     }
     return (
