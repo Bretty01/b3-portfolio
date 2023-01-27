@@ -9,8 +9,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      fill: var(--accent-dark);
-      color: var(--accent-dark);
+      fill: var(--basic-light);
+      color: var(--basic-light);
+      stroke: none;
     }
     :nth-child(1){
       width: 75%;
