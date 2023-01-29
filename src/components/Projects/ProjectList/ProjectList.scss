@@ -31,3 +31,10 @@
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #project-list {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+  }
+}

@@ -42,7 +42,7 @@ const projectInfo = [
     },
   },
   {
-    name: "Personal Website",
+    name: "B3 Portfolio",
     shortDescription: "My website for showing off everything me.",
     longDescription:
       "After taking a couple years of learning web developing on the side, it is only natural that I " +

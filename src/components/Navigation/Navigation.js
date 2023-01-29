@@ -1,7 +1,7 @@
 import "./Navigation.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect, useRef } from "react";
+import {useEffect, useRef, useState} from "react";
 import Socials from "../Socials/Socials";
 import B3Logo from "../Icons/B3Logo/B3Logo";
 const Navigation = (props) => {
@@ -11,6 +11,7 @@ const Navigation = (props) => {
   const contactRef = useRef(null);
   const navSectionRef = useRef(null);
   const navBlockRef = useRef(null);
+  const [isTabletSize, setIsTabletSize] = useState(false)
   /**
    * Function: isInViewport
    * Purpose: Check if the section submitted is in sight of the user and return a boolean based on result.
@@ -19,14 +20,14 @@ const Navigation = (props) => {
    */
   const isInViewport = (index) => {
     //Get the rectangle section and compare it to the main window.
-    const rect = props.navrefs[index]?.current?.getBoundingClientRect();
+    const rect = props.navrefs[index]?.current?.getBoundingClientRect()
     return (
-      rect.top >= 0 &&
+      rect.top <= 100 &&
       rect.left >= 0 &&
       rect.bottom <=
-        (window.innerHeight + (rect.bottom - rect.top) / 2 ||
-          document.documentElement.clientHeight +
-            (rect.bottom - rect.top) / 2) &&
+      (((window.innerHeight + (rect.bottom - rect.top))/1.4) ||
+          ((document.documentElement.clientHeight +
+            (rect.bottom - rect.top)) / 1.4)) &&
       Math.floor(rect.right) <=
         (window.innerWidth || document.documentElement.clientWidth)
     );
@@ -42,10 +43,12 @@ const Navigation = (props) => {
       navSectionRef.current.setAttribute("data-aos", "fade-down");
       navBlockRef.current.className = "nav";
       navBlockRef.current.setAttribute("data-aos", "");
+      setIsTabletSize(true)
     } else {
       navSectionRef.current.setAttribute("data-aos", "fade-right");
       navBlockRef.current.className = "nav aos-init";
       navBlockRef.current.setAttribute("data-aos", "fade-right");
+      setIsTabletSize(false)
     }
     AOS.refresh();
   };
@@ -53,7 +56,7 @@ const Navigation = (props) => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
-    document.addEventListener("scroll", function () {
+    window.addEventListener("scroll", function () {
       //TODO: Below can probably be optimised a lot better.
       if (isInViewport(0)) {
         aboutRef.current.className = "active";
@@ -93,49 +96,59 @@ const Navigation = (props) => {
       data-aos-anchor="#about"
       data-aos-anchor-placement="center-bottom"
     >
-      <B3Logo
-        onClick={() =>
-          props.navrefs[4].current?.scrollIntoView({ behavior: "smooth" })
-        }
-      />
+      {!isTabletSize ?
+          <B3Logo
+              onClick={() =>
+                  props.navrefs[4].current?.scrollIntoView({ behavior: "smooth" })
+              }
+          /> : ""
+      }
       <div
         ref={navSectionRef}
         data-aos="fade-right"
         data-aos-anchor="#about"
         data-aos-anchor-placement="center-bottom"
       >
-        <h2
-          onClick={() =>
-            props.navrefs[0].current?.scrollIntoView({ behavior: "smooth" })
-          }
-          ref={aboutRef}
-        >
-          About
-        </h2>
-        <h2
-          onClick={() =>
-            props.navrefs[1].current?.scrollIntoView({ behavior: "smooth" })
-          }
-          ref={skillsRef}
-        >
-          Skills
-        </h2>
-        <h2
-          onClick={() =>
-            props.navrefs[2].current?.scrollIntoView({ behavior: "smooth" })
-          }
-          ref={projectsRef}
-        >
-          Projects
-        </h2>
-        <h2
-          onClick={() =>
-            props.navrefs[3].current?.scrollIntoView({ behavior: "smooth" })
-          }
-          ref={contactRef}
-        >
-          Contact
-        </h2>
+        {isTabletSize ?
+            <B3Logo
+                onClick={() =>
+                    props.navrefs[4].current?.scrollIntoView({ behavior: "smooth" })
+                }
+            /> : "" }
+        <div>
+          <h2
+              onClick={() =>
+                  props.navrefs[0].current?.scrollIntoView({ behavior: "smooth" })
+              }
+              ref={aboutRef}
+          >
+            About
+          </h2>
+          <h2
+              onClick={() =>
+                  props.navrefs[1].current?.scrollIntoView({ behavior: "smooth" })
+              }
+              ref={skillsRef}
+          >
+            Skills
+          </h2>
+          <h2
+              onClick={() =>
+                  props.navrefs[2].current?.scrollIntoView({ behavior: "smooth" })
+              }
+              ref={projectsRef}
+          >
+            Projects
+          </h2>
+          <h2
+              onClick={() =>
+                  props.navrefs[3].current?.scrollIntoView({ behavior: "smooth" })
+              }
+              ref={contactRef}
+          >
+            Contact
+          </h2>
+        </div>
       </div>
       <Socials
         data-aos="fade-up"
