@@ -60,19 +60,19 @@
   background-color: var(--basic-dark);
   > div {
     min-height: 100vh;
-    padding: 60px 5% 0;
-    &:nth-child(n + 2) {
-      width: 70%;
-      margin-left: auto;
-      padding-bottom: 60px;
-      margin-bottom: -60px;
-      overflow-y: hidden;
-      > *:nth-child(1) {
-        margin-top: 30px;
-      }
+    padding: 0 5%;
+  }
+  #about, #skills, #projects, #contact {
+    width: 70%;
+    margin-left: auto;
+    padding-bottom: 120px;
+    margin-bottom: -60px;
+    overflow-y: hidden;
+    border-bottom: 60px solid transparent;
+    > *:nth-child(1) {
+      margin-bottom: 30px;
     }
   }
-
   h1 {
     text-align: center;
   }
@@ -111,7 +111,7 @@
   #main-content {
     width: 100%;
     margin: 0;
-    > div:nth-child(n+2){
+    #about, #skills, #projects, #contact {
       width: 90%;
       margin-right: auto;
     }
