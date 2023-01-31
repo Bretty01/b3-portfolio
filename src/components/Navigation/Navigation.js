@@ -54,38 +54,44 @@ const Navigation = (props) => {
   };
 
   useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-    window.addEventListener("scroll", function () {
-      //TODO: Below can probably be optimised a lot better.
-      if (isInViewport(0)) {
-        aboutRef.current.className = "active";
-        skillsRef.current.className = "";
-        projectsRef.current.className = "";
-        contactRef.current.className = "";
-      }
-      if (isInViewport(1)) {
-        aboutRef.current.className = "";
-        skillsRef.current.className = "active";
-        projectsRef.current.className = "";
-        contactRef.current.className = "";
-      }
-      if (isInViewport(2)) {
-        aboutRef.current.className = "";
-        skillsRef.current.className = "";
-        projectsRef.current.className = "active";
-        contactRef.current.className = "";
-      }
-      if (isInViewport(3)) {
-        aboutRef.current.className = "";
-        skillsRef.current.className = "";
-        projectsRef.current.className = "";
-        contactRef.current.className = "active";
-      }
-    });
-    window.addEventListener("resize", changeNavAnimation);
-    changeNavAnimation();
-    props.navrefs[0].current?.scrollIntoView({ behavior: "smooth" });
+    try {
+      AOS.init();
+      AOS.refresh();
+      window.addEventListener("scroll", function () {
+        //TODO: Below can probably be optimised a lot better.
+        if (isInViewport(0)) {
+          aboutRef.current.className = "active";
+          skillsRef.current.className = "";
+          projectsRef.current.className = "";
+          contactRef.current.className = "";
+        }
+        if (isInViewport(1)) {
+          aboutRef.current.className = "";
+          skillsRef.current.className = "active";
+          projectsRef.current.className = "";
+          contactRef.current.className = "";
+        }
+        if (isInViewport(2)) {
+          aboutRef.current.className = "";
+          skillsRef.current.className = "";
+          projectsRef.current.className = "active";
+          contactRef.current.className = "";
+        }
+        if (isInViewport(3)) {
+          aboutRef.current.className = "";
+          skillsRef.current.className = "";
+          projectsRef.current.className = "";
+          contactRef.current.className = "active";
+        }
+      });
+      window.addEventListener("resize", changeNavAnimation);
+      changeNavAnimation();
+
+      props.navrefs[0].current?.scrollIntoView({ behavior: "smooth" });
+    } catch (e) {
+      console.warn("Unable to initiate scrolling behavior, " + e)
+    }
+
   }, []);
 
   return (
