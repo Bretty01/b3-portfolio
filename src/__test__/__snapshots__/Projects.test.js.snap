@@ -1,0 +1,887 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check second set of mock info to see if the github button is enabled and website button is disabled 1`] = `
+<div>
+  <div>
+    <h1>
+      Projects
+    </h1>
+    <div
+      class="project-overview"
+      style="transform: none;"
+    >
+      <div
+        class="overview-header"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+          data-testid="ArrowBackIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+          />
+        </svg>
+        <h3>
+          Mock Project 2
+        </h3>
+      </div>
+      <div
+        class="overview-body"
+      >
+        <div>
+          <svg
+            height="512"
+            viewBox="0 0 512 512"
+            width="512"
+          >
+            <g
+              id="DesktopIcon"
+            >
+              <g
+                id="DesktopIcon_2"
+              >
+                <path
+                  d="M426.666 384C450.134 384 469.334 364.8 469.334 341.334V128C469.334 104.533 450.134 85.3334 426.666 85.3334H85.3334C61.8666 85.3334 42.6666 104.533 42.6666 128V341.334C42.6666 364.8 61.8666 384 85.3334 384H0V426.666H512V384H426.666ZM85.3334 128H426.666V341.334H85.3334V128Z"
+                  fill="white"
+                  id="Vector"
+                />
+                <rect
+                  fill="url(#pattern0)"
+                  height="214"
+                  id="desktop-image"
+                  width="340"
+                  x="86"
+                  y="128"
+                />
+              </g>
+            </g>
+            <defs>
+              <pattern
+                height="1"
+                id="pattern0"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+              >
+                <use
+                  transform="scale(0.00294118 0.0046729)"
+                  xlink:href="#image0_4_6"
+                />
+              </pattern>
+              <image
+                data-name="google-d.png"
+                height="214"
+                id="image0_4_6"
+                width="340"
+                xlink:href="/google-d.png"
+              />
+            </defs>
+          </svg>
+          <svg
+            fill="none"
+            height="512"
+            viewBox="0 0 258 512"
+            width="258"
+          >
+            <g
+              id="MobileIcon 1"
+            >
+              <path
+                d="M221.143 0.232727L36.8571 0C16.5857 0 0 20.9455 0 46.5455V465.455C0 491.055
+ 16.5857 512 36.8571 512H221.143C241.414 512 258 491.055 258 465.455V46.5455C258 20.9455 241.414
+ 0.232727 221.143 0.232727ZM221.143 418.909H36.8571V93.0909H221.143V418.909Z"
+                fill="#fff"
+                id="Vector"
+              />
+              <rect
+                fill="url(#pattern1)"
+                height="326"
+                id="google-m 1"
+                width="183"
+                x="37"
+                y="92"
+              />
+            </g>
+            <defs>
+              <pattern
+                height="1"
+                id="pattern1"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+              >
+                <use
+                  transform="translate(-0.00325137) scale(0.00222678 0.00125)"
+                  xlink:href="#image0_1_2"
+                />
+              </pattern>
+              <image
+                data-name="google-m.png"
+                height="800"
+                id="image0_1_2"
+                width="452"
+                xlink:href="/google-m.png"
+              />
+            </defs>
+          </svg>
+        </div>
+        <div>
+          <div
+            class="overview-description"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar consequat neque, non placerat augue laoreet eget. In ut mi sollicitudin, lacinia magna non, scelerisque elit. Integer ullamcorper erat id neque interdum convallis. Nulla id dapibus magna. Curabitur sit amet finibus ex. Aliquam a erat a ligula accumsan rutrum. Cras tincidunt diam ex, et elementum erat efficitur quis. Mauris ac orci nec mauris molestie dictum. In pretium erat id odio gravida dictum. Donec convallis consectetur nisl, eget ornare est tempor eu.
+          </div>
+          <div
+            class="overview-skills"
+          >
+            <div
+              class="skill-bubble"
+            >
+              MockDB, MockularJS, CMockS, Mocka
+            </div>
+          </div>
+          <div
+            class="overview-links"
+          >
+            <a
+              href="https://www.google.ca"
+            >
+              <button>
+                Github Page
+              </button>
+            </a>
+            <a>
+              <button
+                disabled=""
+              >
+                Access Site
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`click mock project modal to update Project component to contain ProjectOverview component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <h1>
+          Projects
+        </h1>
+        <div
+          class="project-overview"
+          style="transform: none;"
+        >
+          <div
+            class="overview-header"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="ArrowBackIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+              />
+            </svg>
+            <h3>
+              Mock Project
+            </h3>
+          </div>
+          <div
+            class="overview-body"
+          >
+            <div>
+              <svg
+                height="512"
+                viewBox="0 0 512 512"
+                width="512"
+              >
+                <g
+                  id="DesktopIcon"
+                >
+                  <g
+                    id="DesktopIcon_2"
+                  >
+                    <path
+                      d="M426.666 384C450.134 384 469.334 364.8 469.334 341.334V128C469.334 104.533 450.134 85.3334 426.666 85.3334H85.3334C61.8666 85.3334 42.6666 104.533 42.6666 128V341.334C42.6666 364.8 61.8666 384 85.3334 384H0V426.666H512V384H426.666ZM85.3334 128H426.666V341.334H85.3334V128Z"
+                      fill="white"
+                      id="Vector"
+                    />
+                    <rect
+                      fill="url(#pattern0)"
+                      height="214"
+                      id="desktop-image"
+                      width="340"
+                      x="86"
+                      y="128"
+                    />
+                  </g>
+                </g>
+                <defs>
+                  <pattern
+                    height="1"
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                  >
+                    <use
+                      transform="scale(0.00294118 0.0046729)"
+                      xlink:href="#image0_4_6"
+                    />
+                  </pattern>
+                  <image
+                    data-name="google-d.png"
+                    height="214"
+                    id="image0_4_6"
+                    width="340"
+                    xlink:href="/google-d.png"
+                  />
+                </defs>
+              </svg>
+              <svg
+                fill="none"
+                height="512"
+                viewBox="0 0 258 512"
+                width="258"
+              >
+                <g
+                  id="MobileIcon 1"
+                >
+                  <path
+                    d="M221.143 0.232727L36.8571 0C16.5857 0 0 20.9455 0 46.5455V465.455C0 491.055
+ 16.5857 512 36.8571 512H221.143C241.414 512 258 491.055 258 465.455V46.5455C258 20.9455 241.414
+ 0.232727 221.143 0.232727ZM221.143 418.909H36.8571V93.0909H221.143V418.909Z"
+                    fill="#fff"
+                    id="Vector"
+                  />
+                  <rect
+                    fill="url(#pattern1)"
+                    height="326"
+                    id="google-m 1"
+                    width="183"
+                    x="37"
+                    y="92"
+                  />
+                </g>
+                <defs>
+                  <pattern
+                    height="1"
+                    id="pattern1"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                  >
+                    <use
+                      transform="translate(-0.00325137) scale(0.00222678 0.00125)"
+                      xlink:href="#image0_1_2"
+                    />
+                  </pattern>
+                  <image
+                    data-name="google-m.png"
+                    height="800"
+                    id="image0_1_2"
+                    width="452"
+                    xlink:href="/google-m.png"
+                  />
+                </defs>
+              </svg>
+            </div>
+            <div>
+              <div
+                class="overview-description"
+              >
+                Well, well, well, look decided to read this mock description. How bold of you to dig through this expecting something useful to learn. But jokes on you! The only thing you will learn from reading this is that 2 + 2 = 4! Mwahahahahahahahahaha!
+              </div>
+              <div
+                class="overview-skills"
+              >
+                <div
+                  class="skill-bubble"
+                >
+                  MockDB, MockularJS, CMockS, Mocka
+                </div>
+              </div>
+              <div
+                class="overview-links"
+              >
+                <a
+                  href="https://www.google.ca"
+                >
+                  <button>
+                    Github Page
+                  </button>
+                </a>
+                <a
+                  href="https://www.google.ca"
+                >
+                  <button>
+                    Access Site
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h1>
+        Projects
+      </h1>
+      <div
+        class="project-overview"
+        style="transform: none;"
+      >
+        <div
+          class="overview-header"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="ArrowBackIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            />
+          </svg>
+          <h3>
+            Mock Project
+          </h3>
+        </div>
+        <div
+          class="overview-body"
+        >
+          <div>
+            <svg
+              height="512"
+              viewBox="0 0 512 512"
+              width="512"
+            >
+              <g
+                id="DesktopIcon"
+              >
+                <g
+                  id="DesktopIcon_2"
+                >
+                  <path
+                    d="M426.666 384C450.134 384 469.334 364.8 469.334 341.334V128C469.334 104.533 450.134 85.3334 426.666 85.3334H85.3334C61.8666 85.3334 42.6666 104.533 42.6666 128V341.334C42.6666 364.8 61.8666 384 85.3334 384H0V426.666H512V384H426.666ZM85.3334 128H426.666V341.334H85.3334V128Z"
+                    fill="white"
+                    id="Vector"
+                  />
+                  <rect
+                    fill="url(#pattern0)"
+                    height="214"
+                    id="desktop-image"
+                    width="340"
+                    x="86"
+                    y="128"
+                  />
+                </g>
+              </g>
+              <defs>
+                <pattern
+                  height="1"
+                  id="pattern0"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                >
+                  <use
+                    transform="scale(0.00294118 0.0046729)"
+                    xlink:href="#image0_4_6"
+                  />
+                </pattern>
+                <image
+                  data-name="google-d.png"
+                  height="214"
+                  id="image0_4_6"
+                  width="340"
+                  xlink:href="/google-d.png"
+                />
+              </defs>
+            </svg>
+            <svg
+              fill="none"
+              height="512"
+              viewBox="0 0 258 512"
+              width="258"
+            >
+              <g
+                id="MobileIcon 1"
+              >
+                <path
+                  d="M221.143 0.232727L36.8571 0C16.5857 0 0 20.9455 0 46.5455V465.455C0 491.055
+ 16.5857 512 36.8571 512H221.143C241.414 512 258 491.055 258 465.455V46.5455C258 20.9455 241.414
+ 0.232727 221.143 0.232727ZM221.143 418.909H36.8571V93.0909H221.143V418.909Z"
+                  fill="#fff"
+                  id="Vector"
+                />
+                <rect
+                  fill="url(#pattern1)"
+                  height="326"
+                  id="google-m 1"
+                  width="183"
+                  x="37"
+                  y="92"
+                />
+              </g>
+              <defs>
+                <pattern
+                  height="1"
+                  id="pattern1"
+                  patternContentUnits="objectBoundingBox"
+                  width="1"
+                >
+                  <use
+                    transform="translate(-0.00325137) scale(0.00222678 0.00125)"
+                    xlink:href="#image0_1_2"
+                  />
+                </pattern>
+                <image
+                  data-name="google-m.png"
+                  height="800"
+                  id="image0_1_2"
+                  width="452"
+                  xlink:href="/google-m.png"
+                />
+              </defs>
+            </svg>
+          </div>
+          <div>
+            <div
+              class="overview-description"
+            >
+              Well, well, well, look decided to read this mock description. How bold of you to dig through this expecting something useful to learn. But jokes on you! The only thing you will learn from reading this is that 2 + 2 = 4! Mwahahahahahahahahaha!
+            </div>
+            <div
+              class="overview-skills"
+            >
+              <div
+                class="skill-bubble"
+              >
+                MockDB, MockularJS, CMockS, Mocka
+              </div>
+            </div>
+            <div
+              class="overview-links"
+            >
+              <a
+                href="https://www.google.ca"
+              >
+                <button>
+                  Github Page
+                </button>
+              </a>
+              <a
+                href="https://www.google.ca"
+              >
+                <button>
+                  Access Site
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`mock return of project data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <h1>
+          Projects
+        </h1>
+        <div
+          id="project-list"
+          style="transform: translateX(2000px) translateZ(0);"
+        >
+          <div
+            class="thumbnail"
+          >
+            <svg
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="43.574"
+                width="32.681"
+                x="174.298"
+                y="375.829"
+              />
+              <rect
+                height="43.574"
+                width="32.681"
+                x="305.021"
+                y="375.829"
+              />
+              <path
+                d="M152.511,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C174.298,227.645,164.524,217.871,152.511,217.871z"
+              />
+              <path
+                d="M359.489,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C381.277,227.645,371.503,217.871,359.489,217.871z"
+              />
+              <path
+                d="M462.979,76.254c-29.141,0-54.221,17.7-65.071,42.91c-4.503-4.073-9.469-7.641-14.795-10.641
+ c-1.303-4.594-6.902-23.963-14.173-43.644c-14.567-39.432-25.809-54.078-41.297-53.983c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-4.355,12.169-8.075,24.211-10.588,32.746h-40.622c-2.598-8.536-6.509-20.789-11.08-33.162
+ c-14.527-39.327-25.698-53.983-41.17-53.983c-0.041,0-0.085,0-0.126,0c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-6.786,18.961-12.035,37.619-13.557,43.161c-5.371,3.014-10.375,6.605-14.911,10.707c-10.848-25.211-35.927-42.911-65.069-42.911
+ H0v49.021c0,39.044,31.765,70.809,70.809,70.809h16.34v92.596c0,22.464,10.539,43.118,27.851,56.308
+ c-3.898,9.523-6.063,19.931-6.063,30.841v43.574c0,45.051,36.652,81.702,81.702,81.702h130.723
+ c45.051,0,81.702-36.652,81.702-81.702v-43.574c0-10.909-2.166-21.317-6.062-30.84c17.311-13.189,27.85-33.844,27.85-56.308
+ v-92.597h16.34c39.044,0,70.809-31.765,70.809-70.809V76.254C512,76.254,462.979,76.254,462.979,76.254z M87.149,163.403h-16.34
+ c-21.024,0-38.128-17.104-38.128-38.128v-16.34h16.34c21.024,0,38.128,17.104,38.128,38.128V163.403z M327.847,51.423
+ c5.249,10.495,11.933,27.786,18.007,46.687c-0.9-0.029-35.462-0.069-35.462-0.069C316.253,79.179,322.724,61.927,327.847,51.423z
+ M183.512,51.423c5.242,10.483,11.915,27.744,17.985,46.618c0,0-34.525,0.039-35.462,0.071
+ C171.9,79.222,178.383,61.939,183.512,51.423z M168.851,130.722h174.298c21.302,0,39.464,13.663,46.211,32.681h-35.317
+ c-39.044,0-70.808,31.765-70.808,70.808v59.915h-54.468v-59.915c0-39.044-31.765-70.808-70.809-70.808H122.64
+ C129.386,144.385,147.549,130.722,168.851,130.722z M119.83,288.679v-92.596h38.128c21.024,0,38.128,17.104,38.128,38.128v59.915
+ h-5.447c-22.344,0-42.615,9.023-57.379,23.609C124.876,310.612,119.83,300.081,119.83,288.679z M370.383,419.403
+ c0,27.03-21.991,49.021-49.021,49.021H190.638c-27.03,0-49.021-21.991-49.021-49.021v-43.574c0-27.03,21.991-49.021,49.021-49.021
+ h130.723c27.03,0,49.021,21.991,49.021,49.021V419.403z M392.17,288.681c0,11.401-5.045,21.933-13.429,29.055
+ c-14.765-14.586-35.036-23.61-57.38-23.61h-5.447v-59.915c0-21.024,17.104-38.128,38.128-38.128h38.128V288.681z M479.319,125.275
+ c0,21.024-17.104,38.128-38.128,38.128h-16.34v-16.34c0-21.024,17.104-38.128,38.128-38.128h16.34V125.275z"
+              />
+            </svg>
+            <div>
+              <h3
+                class="project-name"
+              >
+                <strong>
+                  Mock Project
+                </strong>
+              </h3>
+              <p>
+                This is a mock project used to mock me
+              </p>
+            </div>
+          </div>
+          <div
+            class="thumbnail"
+          >
+            <svg
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="43.574"
+                width="32.681"
+                x="174.298"
+                y="375.829"
+              />
+              <rect
+                height="43.574"
+                width="32.681"
+                x="305.021"
+                y="375.829"
+              />
+              <path
+                d="M152.511,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C174.298,227.645,164.524,217.871,152.511,217.871z"
+              />
+              <path
+                d="M359.489,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C381.277,227.645,371.503,217.871,359.489,217.871z"
+              />
+              <path
+                d="M462.979,76.254c-29.141,0-54.221,17.7-65.071,42.91c-4.503-4.073-9.469-7.641-14.795-10.641
+ c-1.303-4.594-6.902-23.963-14.173-43.644c-14.567-39.432-25.809-54.078-41.297-53.983c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-4.355,12.169-8.075,24.211-10.588,32.746h-40.622c-2.598-8.536-6.509-20.789-11.08-33.162
+ c-14.527-39.327-25.698-53.983-41.17-53.983c-0.041,0-0.085,0-0.126,0c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-6.786,18.961-12.035,37.619-13.557,43.161c-5.371,3.014-10.375,6.605-14.911,10.707c-10.848-25.211-35.927-42.911-65.069-42.911
+ H0v49.021c0,39.044,31.765,70.809,70.809,70.809h16.34v92.596c0,22.464,10.539,43.118,27.851,56.308
+ c-3.898,9.523-6.063,19.931-6.063,30.841v43.574c0,45.051,36.652,81.702,81.702,81.702h130.723
+ c45.051,0,81.702-36.652,81.702-81.702v-43.574c0-10.909-2.166-21.317-6.062-30.84c17.311-13.189,27.85-33.844,27.85-56.308
+ v-92.597h16.34c39.044,0,70.809-31.765,70.809-70.809V76.254C512,76.254,462.979,76.254,462.979,76.254z M87.149,163.403h-16.34
+ c-21.024,0-38.128-17.104-38.128-38.128v-16.34h16.34c21.024,0,38.128,17.104,38.128,38.128V163.403z M327.847,51.423
+ c5.249,10.495,11.933,27.786,18.007,46.687c-0.9-0.029-35.462-0.069-35.462-0.069C316.253,79.179,322.724,61.927,327.847,51.423z
+ M183.512,51.423c5.242,10.483,11.915,27.744,17.985,46.618c0,0-34.525,0.039-35.462,0.071
+ C171.9,79.222,178.383,61.939,183.512,51.423z M168.851,130.722h174.298c21.302,0,39.464,13.663,46.211,32.681h-35.317
+ c-39.044,0-70.808,31.765-70.808,70.808v59.915h-54.468v-59.915c0-39.044-31.765-70.808-70.809-70.808H122.64
+ C129.386,144.385,147.549,130.722,168.851,130.722z M119.83,288.679v-92.596h38.128c21.024,0,38.128,17.104,38.128,38.128v59.915
+ h-5.447c-22.344,0-42.615,9.023-57.379,23.609C124.876,310.612,119.83,300.081,119.83,288.679z M370.383,419.403
+ c0,27.03-21.991,49.021-49.021,49.021H190.638c-27.03,0-49.021-21.991-49.021-49.021v-43.574c0-27.03,21.991-49.021,49.021-49.021
+ h130.723c27.03,0,49.021,21.991,49.021,49.021V419.403z M392.17,288.681c0,11.401-5.045,21.933-13.429,29.055
+ c-14.765-14.586-35.036-23.61-57.38-23.61h-5.447v-59.915c0-21.024,17.104-38.128,38.128-38.128h38.128V288.681z M479.319,125.275
+ c0,21.024-17.104,38.128-38.128,38.128h-16.34v-16.34c0-21.024,17.104-38.128,38.128-38.128h16.34V125.275z"
+              />
+            </svg>
+            <div>
+              <h3
+                class="project-name"
+              >
+                <strong>
+                  Mock Project 2
+                </strong>
+              </h3>
+              <p>
+                This is the second mock project
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <h1>
+        Projects
+      </h1>
+      <div
+        id="project-list"
+        style="transform: translateX(2000px) translateZ(0);"
+      >
+        <div
+          class="thumbnail"
+        >
+          <svg
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="43.574"
+              width="32.681"
+              x="174.298"
+              y="375.829"
+            />
+            <rect
+              height="43.574"
+              width="32.681"
+              x="305.021"
+              y="375.829"
+            />
+            <path
+              d="M152.511,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C174.298,227.645,164.524,217.871,152.511,217.871z"
+            />
+            <path
+              d="M359.489,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C381.277,227.645,371.503,217.871,359.489,217.871z"
+            />
+            <path
+              d="M462.979,76.254c-29.141,0-54.221,17.7-65.071,42.91c-4.503-4.073-9.469-7.641-14.795-10.641
+ c-1.303-4.594-6.902-23.963-14.173-43.644c-14.567-39.432-25.809-54.078-41.297-53.983c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-4.355,12.169-8.075,24.211-10.588,32.746h-40.622c-2.598-8.536-6.509-20.789-11.08-33.162
+ c-14.527-39.327-25.698-53.983-41.17-53.983c-0.041,0-0.085,0-0.126,0c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-6.786,18.961-12.035,37.619-13.557,43.161c-5.371,3.014-10.375,6.605-14.911,10.707c-10.848-25.211-35.927-42.911-65.069-42.911
+ H0v49.021c0,39.044,31.765,70.809,70.809,70.809h16.34v92.596c0,22.464,10.539,43.118,27.851,56.308
+ c-3.898,9.523-6.063,19.931-6.063,30.841v43.574c0,45.051,36.652,81.702,81.702,81.702h130.723
+ c45.051,0,81.702-36.652,81.702-81.702v-43.574c0-10.909-2.166-21.317-6.062-30.84c17.311-13.189,27.85-33.844,27.85-56.308
+ v-92.597h16.34c39.044,0,70.809-31.765,70.809-70.809V76.254C512,76.254,462.979,76.254,462.979,76.254z M87.149,163.403h-16.34
+ c-21.024,0-38.128-17.104-38.128-38.128v-16.34h16.34c21.024,0,38.128,17.104,38.128,38.128V163.403z M327.847,51.423
+ c5.249,10.495,11.933,27.786,18.007,46.687c-0.9-0.029-35.462-0.069-35.462-0.069C316.253,79.179,322.724,61.927,327.847,51.423z
+ M183.512,51.423c5.242,10.483,11.915,27.744,17.985,46.618c0,0-34.525,0.039-35.462,0.071
+ C171.9,79.222,178.383,61.939,183.512,51.423z M168.851,130.722h174.298c21.302,0,39.464,13.663,46.211,32.681h-35.317
+ c-39.044,0-70.808,31.765-70.808,70.808v59.915h-54.468v-59.915c0-39.044-31.765-70.808-70.809-70.808H122.64
+ C129.386,144.385,147.549,130.722,168.851,130.722z M119.83,288.679v-92.596h38.128c21.024,0,38.128,17.104,38.128,38.128v59.915
+ h-5.447c-22.344,0-42.615,9.023-57.379,23.609C124.876,310.612,119.83,300.081,119.83,288.679z M370.383,419.403
+ c0,27.03-21.991,49.021-49.021,49.021H190.638c-27.03,0-49.021-21.991-49.021-49.021v-43.574c0-27.03,21.991-49.021,49.021-49.021
+ h130.723c27.03,0,49.021,21.991,49.021,49.021V419.403z M392.17,288.681c0,11.401-5.045,21.933-13.429,29.055
+ c-14.765-14.586-35.036-23.61-57.38-23.61h-5.447v-59.915c0-21.024,17.104-38.128,38.128-38.128h38.128V288.681z M479.319,125.275
+ c0,21.024-17.104,38.128-38.128,38.128h-16.34v-16.34c0-21.024,17.104-38.128,38.128-38.128h16.34V125.275z"
+            />
+          </svg>
+          <div>
+            <h3
+              class="project-name"
+            >
+              <strong>
+                Mock Project
+              </strong>
+            </h3>
+            <p>
+              This is a mock project used to mock me
+            </p>
+          </div>
+        </div>
+        <div
+          class="thumbnail"
+        >
+          <svg
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              height="43.574"
+              width="32.681"
+              x="174.298"
+              y="375.829"
+            />
+            <rect
+              height="43.574"
+              width="32.681"
+              x="305.021"
+              y="375.829"
+            />
+            <path
+              d="M152.511,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C174.298,227.645,164.524,217.871,152.511,217.871z"
+            />
+            <path
+              d="M359.489,217.871c-12.009,0-21.783,9.772-21.787,21.787c0,12.013,9.773,21.787,21.785,21.787h0.002
+ c12.013,0,21.787-9.774,21.787-21.787C381.277,227.645,371.503,217.871,359.489,217.871z"
+            />
+            <path
+              d="M462.979,76.254c-29.141,0-54.221,17.7-65.071,42.91c-4.503-4.073-9.469-7.641-14.795-10.641
+ c-1.303-4.594-6.902-23.963-14.173-43.644c-14.567-39.432-25.809-54.078-41.297-53.983c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-4.355,12.169-8.075,24.211-10.588,32.746h-40.622c-2.598-8.536-6.509-20.789-11.08-33.162
+ c-14.527-39.327-25.698-53.983-41.17-53.983c-0.041,0-0.085,0-0.126,0c-15.541,0.077-26.585,14.821-40.75,54.401
+ c-6.786,18.961-12.035,37.619-13.557,43.161c-5.371,3.014-10.375,6.605-14.911,10.707c-10.848-25.211-35.927-42.911-65.069-42.911
+ H0v49.021c0,39.044,31.765,70.809,70.809,70.809h16.34v92.596c0,22.464,10.539,43.118,27.851,56.308
+ c-3.898,9.523-6.063,19.931-6.063,30.841v43.574c0,45.051,36.652,81.702,81.702,81.702h130.723
+ c45.051,0,81.702-36.652,81.702-81.702v-43.574c0-10.909-2.166-21.317-6.062-30.84c17.311-13.189,27.85-33.844,27.85-56.308
+ v-92.597h16.34c39.044,0,70.809-31.765,70.809-70.809V76.254C512,76.254,462.979,76.254,462.979,76.254z M87.149,163.403h-16.34
+ c-21.024,0-38.128-17.104-38.128-38.128v-16.34h16.34c21.024,0,38.128,17.104,38.128,38.128V163.403z M327.847,51.423
+ c5.249,10.495,11.933,27.786,18.007,46.687c-0.9-0.029-35.462-0.069-35.462-0.069C316.253,79.179,322.724,61.927,327.847,51.423z
+ M183.512,51.423c5.242,10.483,11.915,27.744,17.985,46.618c0,0-34.525,0.039-35.462,0.071
+ C171.9,79.222,178.383,61.939,183.512,51.423z M168.851,130.722h174.298c21.302,0,39.464,13.663,46.211,32.681h-35.317
+ c-39.044,0-70.808,31.765-70.808,70.808v59.915h-54.468v-59.915c0-39.044-31.765-70.808-70.809-70.808H122.64
+ C129.386,144.385,147.549,130.722,168.851,130.722z M119.83,288.679v-92.596h38.128c21.024,0,38.128,17.104,38.128,38.128v59.915
+ h-5.447c-22.344,0-42.615,9.023-57.379,23.609C124.876,310.612,119.83,300.081,119.83,288.679z M370.383,419.403
+ c0,27.03-21.991,49.021-49.021,49.021H190.638c-27.03,0-49.021-21.991-49.021-49.021v-43.574c0-27.03,21.991-49.021,49.021-49.021
+ h130.723c27.03,0,49.021,21.991,49.021,49.021V419.403z M392.17,288.681c0,11.401-5.045,21.933-13.429,29.055
+ c-14.765-14.586-35.036-23.61-57.38-23.61h-5.447v-59.915c0-21.024,17.104-38.128,38.128-38.128h38.128V288.681z M479.319,125.275
+ c0,21.024-17.104,38.128-38.128,38.128h-16.34v-16.34c0-21.024,17.104-38.128,38.128-38.128h16.34V125.275z"
+            />
+          </svg>
+          <div>
+            <h3
+              class="project-name"
+            >
+              <strong>
+                Mock Project 2
+              </strong>
+            </h3>
+            <p>
+              This is the second mock project
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
