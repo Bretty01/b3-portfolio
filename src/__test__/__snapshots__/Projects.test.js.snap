@@ -32,99 +32,12 @@ exports[`Check second set of mock info to see if the github button is enabled an
         class="overview-body"
       >
         <div>
-          <svg
-            height="512"
-            viewBox="0 0 512 512"
-            width="512"
-          >
-            <g
-              id="DesktopIcon"
-            >
-              <g
-                id="DesktopIcon_2"
-              >
-                <path
-                  d="M426.666 384C450.134 384 469.334 364.8 469.334 341.334V128C469.334 104.533 450.134 85.3334 426.666 85.3334H85.3334C61.8666 85.3334 42.6666 104.533 42.6666 128V341.334C42.6666 364.8 61.8666 384 85.3334 384H0V426.666H512V384H426.666ZM85.3334 128H426.666V341.334H85.3334V128Z"
-                  fill="white"
-                  id="Vector"
-                />
-                <rect
-                  fill="url(#pattern0)"
-                  height="214"
-                  id="desktop-image"
-                  width="340"
-                  x="86"
-                  y="128"
-                />
-              </g>
-            </g>
-            <defs>
-              <pattern
-                height="1"
-                id="pattern0"
-                patternContentUnits="objectBoundingBox"
-                width="1"
-              >
-                <use
-                  transform="scale(0.00294118 0.0046729)"
-                  xlink:href="#image0_4_6"
-                />
-              </pattern>
-              <image
-                data-name="google-d.png"
-                height="214"
-                id="image0_4_6"
-                width="340"
-                xlink:href="/google-d.png"
-              />
-            </defs>
-          </svg>
-          <svg
-            fill="none"
-            height="512"
-            viewBox="0 0 258 512"
-            width="258"
-          >
-            <g
-              id="MobileIcon 1"
-            >
-              <path
-                d="M221.143 0.232727L36.8571 0C16.5857 0 0 20.9455 0 46.5455V465.455C0 491.055
- 16.5857 512 36.8571 512H221.143C241.414 512 258 491.055 258 465.455V46.5455C258 20.9455 241.414
- 0.232727 221.143 0.232727ZM221.143 418.909H36.8571V93.0909H221.143V418.909Z"
-                fill="#fff"
-                id="Vector"
-              />
-              <rect
-                fill="url(#pattern1)"
-                height="326"
-                id="google-m 1"
-                width="183"
-                x="37"
-                y="92"
-              />
-            </g>
-            <defs>
-              <pattern
-                height="1"
-                id="pattern1"
-                patternContentUnits="objectBoundingBox"
-                width="1"
-              >
-                <use
-                  transform="translate(-0.00325137) scale(0.00222678 0.00125)"
-                  xlink:href="#image0_1_2"
-                />
-              </pattern>
-              <image
-                data-name="google-m.png"
-                height="800"
-                id="image0_1_2"
-                width="452"
-                xlink:href="/google-m.png"
-              />
-            </defs>
-          </svg>
+          <img
+            src="/google-d.png"
+          />
+          <img
+            src="/google-m.png"
+          />
         </div>
         <div>
           <div
@@ -201,99 +114,12 @@ Object {
             class="overview-body"
           >
             <div>
-              <svg
-                height="512"
-                viewBox="0 0 512 512"
-                width="512"
-              >
-                <g
-                  id="DesktopIcon"
-                >
-                  <g
-                    id="DesktopIcon_2"
-                  >
-                    <path
-                      d="M426.666 384C450.134 384 469.334 364.8 469.334 341.334V128C469.334 104.533 450.134 85.3334 426.666 85.3334H85.3334C61.8666 85.3334 42.6666 104.533 42.6666 128V341.334C42.6666 364.8 61.8666 384 85.3334 384H0V426.666H512V384H426.666ZM85.3334 128H426.666V341.334H85.3334V128Z"
-                      fill="white"
-                      id="Vector"
-                    />
-                    <rect
-                      fill="url(#pattern0)"
-                      height="214"
-                      id="desktop-image"
-                      width="340"
-                      x="86"
-                      y="128"
-                    />
-                  </g>
-                </g>
-                <defs>
-                  <pattern
-                    height="1"
-                    id="pattern0"
-                    patternContentUnits="objectBoundingBox"
-                    width="1"
-                  >
-                    <use
-                      transform="scale(0.00294118 0.0046729)"
-                      xlink:href="#image0_4_6"
-                    />
-                  </pattern>
-                  <image
-                    data-name="google-d.png"
-                    height="214"
-                    id="image0_4_6"
-                    width="340"
-                    xlink:href="/google-d.png"
-                  />
-                </defs>
-              </svg>
-              <svg
-                fill="none"
-                height="512"
-                viewBox="0 0 258 512"
-                width="258"
-              >
-                <g
-                  id="MobileIcon 1"
-                >
-                  <path
-                    d="M221.143 0.232727L36.8571 0C16.5857 0 0 20.9455 0 46.5455V465.455C0 491.055
- 16.5857 512 36.8571 512H221.143C241.414 512 258 491.055 258 465.455V46.5455C258 20.9455 241.414
- 0.232727 221.143 0.232727ZM221.143 418.909H36.8571V93.0909H221.143V418.909Z"
-                    fill="#fff"
-                    id="Vector"
-                  />
-                  <rect
-                    fill="url(#pattern1)"
-                    height="326"
-                    id="google-m 1"
-                    width="183"
-                    x="37"
-                    y="92"
-                  />
-                </g>
-                <defs>
-                  <pattern
-                    height="1"
-                    id="pattern1"
-                    patternContentUnits="objectBoundingBox"
-                    width="1"
-                  >
-                    <use
-                      transform="translate(-0.00325137) scale(0.00222678 0.00125)"
-                      xlink:href="#image0_1_2"
-                    />
-                  </pattern>
-                  <image
-                    data-name="google-m.png"
-                    height="800"
-                    id="image0_1_2"
-                    width="452"
-                    xlink:href="/google-m.png"
-                  />
-                </defs>
-              </svg>
+              <img
+                src="/google-d.png"
+              />
+              <img
+                src="/google-m.png"
+              />
             </div>
             <div>
               <div
@@ -365,99 +191,12 @@ Object {
           class="overview-body"
         >
           <div>
-            <svg
-              height="512"
-              viewBox="0 0 512 512"
-              width="512"
-            >
-              <g
-                id="DesktopIcon"
-              >
-                <g
-                  id="DesktopIcon_2"
-                >
-                  <path
-                    d="M426.666 384C450.134 384 469.334 364.8 469.334 341.334V128C469.334 104.533 450.134 85.3334 426.666 85.3334H85.3334C61.8666 85.3334 42.6666 104.533 42.6666 128V341.334C42.6666 364.8 61.8666 384 85.3334 384H0V426.666H512V384H426.666ZM85.3334 128H426.666V341.334H85.3334V128Z"
-                    fill="white"
-                    id="Vector"
-                  />
-                  <rect
-                    fill="url(#pattern0)"
-                    height="214"
-                    id="desktop-image"
-                    width="340"
-                    x="86"
-                    y="128"
-                  />
-                </g>
-              </g>
-              <defs>
-                <pattern
-                  height="1"
-                  id="pattern0"
-                  patternContentUnits="objectBoundingBox"
-                  width="1"
-                >
-                  <use
-                    transform="scale(0.00294118 0.0046729)"
-                    xlink:href="#image0_4_6"
-                  />
-                </pattern>
-                <image
-                  data-name="google-d.png"
-                  height="214"
-                  id="image0_4_6"
-                  width="340"
-                  xlink:href="/google-d.png"
-                />
-              </defs>
-            </svg>
-            <svg
-              fill="none"
-              height="512"
-              viewBox="0 0 258 512"
-              width="258"
-            >
-              <g
-                id="MobileIcon 1"
-              >
-                <path
-                  d="M221.143 0.232727L36.8571 0C16.5857 0 0 20.9455 0 46.5455V465.455C0 491.055
- 16.5857 512 36.8571 512H221.143C241.414 512 258 491.055 258 465.455V46.5455C258 20.9455 241.414
- 0.232727 221.143 0.232727ZM221.143 418.909H36.8571V93.0909H221.143V418.909Z"
-                  fill="#fff"
-                  id="Vector"
-                />
-                <rect
-                  fill="url(#pattern1)"
-                  height="326"
-                  id="google-m 1"
-                  width="183"
-                  x="37"
-                  y="92"
-                />
-              </g>
-              <defs>
-                <pattern
-                  height="1"
-                  id="pattern1"
-                  patternContentUnits="objectBoundingBox"
-                  width="1"
-                >
-                  <use
-                    transform="translate(-0.00325137) scale(0.00222678 0.00125)"
-                    xlink:href="#image0_1_2"
-                  />
-                </pattern>
-                <image
-                  data-name="google-m.png"
-                  height="800"
-                  id="image0_1_2"
-                  width="452"
-                  xlink:href="/google-m.png"
-                />
-              </defs>
-            </svg>
+            <img
+              src="/google-d.png"
+            />
+            <img
+              src="/google-m.png"
+            />
           </div>
           <div>
             <div
