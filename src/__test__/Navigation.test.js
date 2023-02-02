@@ -1,4 +1,5 @@
 import Navigation from "../components/Navigation/Navigation"
+import App from "../App"
 import {fireEvent, render, screen} from "@testing-library/react";
 import userEvent from '@testing-library/user-event'
 
@@ -15,12 +16,12 @@ test('B3Logo hover snapshot', () => {
 })
 
 test('Resize window width and snapshot the navigation', () => {
-    //TODO: Snapshot is not resizing to 425 but innerWidth is set accordingly.
-    const tree = render(<Navigation />)
-    console.log(window.innerWidth)
-    global.innerWidth = 425
-    fireEvent(window, new Event('resize'))
+    const {container} = render(<App />)
+    const arrowIcon = screen.getByText(/Click here to learn more!/i)
+    userEvent.click(arrowIcon)
+    global.window.innerWidth = 425
     expect(window.innerWidth).toEqual(425)
-    console.log(window.innerWidth)
-    expect(tree).toMatchSnapshot()
+    fireEvent(window, new Event('resize'))
+    const nav = container.querySelector(".nav")
+    expect(nav).toMatchSnapshot()
 })
