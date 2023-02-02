@@ -24,8 +24,8 @@ const ProjectOverview = (props) => {
             </div>
             <div className="overview-body">
                 <div>
-                    <DesktopIcon desktopImages={props.desktopImages}/>
-                    <MobileIcon mobileImages={props.mobileImages}/>
+                    <img src={props.desktopImages}/>
+                    <img src={props.mobileImages}/>
                 </div>
                 <div>
                     <div className="overview-description">{props.longDescription || "Lorem ipsum dolor sit amet, " +
