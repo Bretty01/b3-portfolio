@@ -10,8 +10,8 @@ const projectInfo = [
       "based on updated product information.",
     skills: ["React", "REST/Express", "MongoDB", "HTML5", "CSS3", "NodeJS"],
     logoLink: 0,
-    mobileImages: ["/google-m.png"],
-    desktopImages: ["/google-d.png"],
+    mobileImages: ["/cow-m-01.jpg"],
+    desktopImages: ["/cow-d-01.jpg"],
     buttons: {
       github: "https://github.com/Bretty01/coveted-cow/tree/master",
     },
@@ -52,8 +52,8 @@ const projectInfo = [
       "desire.",
     skills: ["React", "HTML5", "CSS3", "SCSS", "NodeJS"],
     logoLink: 2,
-    mobileImages: ["/google-m.png"],
-    desktopImages: ["/google-d.png"],
+    mobileImages: ["/web-m-01.jpg"],
+    desktopImages: ["/web-d-01.jpg"],
     buttons: {
       github: "https://github.com/Bretty01/coveted-cow/tree/master",
     },
@@ -68,8 +68,7 @@ const projectInfo = [
       "audio form.",
     skills: ["NodeJS (formerly Python)"],
     logoLink: 3,
-    mobileImages: ["/google-m.png"],
-    desktopImages: ["/google-d.png"],
+    desktopImages: ["/brm-d-01.jpg"],
     buttons: {
       github: "https://github.com/Bretty01/coveted-cow/tree/master",
     },
