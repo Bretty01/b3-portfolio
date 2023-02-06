@@ -1,17 +1,30 @@
+#contact > div > div {
+  height: 80vh;
+  position: relative;
+  display: flex;
+  padding: 1rem 0;
+}
+
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-
+  margin: auto 0;
   > * {
     background-color: black;
     color: lightgrey;
-    border-color: lightgrey;
+    border-color: var(--accent-light);
+    font-size: 16px;
+    border-radius: 0.5em;
+    border-width: 3px;
   }
-
+  strong {
+    color: red;
+    background-color: transparent;
+  }
   input, textarea {
-    padding: 1%;
+    padding: 0.5em;
     width: 80%;
     margin: 5px auto 5px auto;
   }
@@ -20,5 +33,37 @@ form {
   }
   textarea {
     height: 300px;
+  }
+}
+
+.loading-block {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.success-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 60%;
+  margin: auto;
+  img {
+    height: 48px;
+    width: 48px;
+    margin-right: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .success-message {
+    flex-direction: column;
   }
 }

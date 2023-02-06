@@ -43,18 +43,19 @@ h3 {
   font-size: 20px;
 }
 
-button {
-  padding: 0.5em 1.5em;
+button, input[type=submit] {
+  padding: 0.5em 1em;
   border: 2px solid var(--accent-light);
   border-radius: 0.3em;
   background-color: transparent;
   color: var(--basic-light);
   font-size: 1.3em;
   font-weight: 700;
-  box-shadow: 0 0 10px 0 var(--accent-light) inset, 0 0 10px 4px var(--accent-light);
+  box-shadow: 0 0 3px 0 var(--accent-light) inset, 0 0 3px 3px var(--accent-light);
   transition: all 150ms ease-in-out;
+  cursor: pointer;
 }
-button:hover {
+button:hover, input[type=submit]:hover {
   box-shadow: 0 0 40px 40px var(--accent-light) inset, 0 0 0 0 var(--accent-light);
   background-color: var(--accent-light);
 }

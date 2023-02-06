@@ -40,13 +40,11 @@ const Navigation = (props) => {
    */
   const changeNavAnimation = () => {
     if (window.innerWidth < 768) {
-      console.log("I am tablet size")
       navSectionRef.current.setAttribute("data-aos", "fade-down");
       navBlockRef.current.className = "nav";
       navBlockRef.current.setAttribute("data-aos", "");
       setIsTabletSize(true)
     } else {
-      console.log("I am desktop size")
       navSectionRef.current.setAttribute("data-aos", "fade-right");
       navBlockRef.current.className = "nav aos-init";
       navBlockRef.current.setAttribute("data-aos", "fade-right");
