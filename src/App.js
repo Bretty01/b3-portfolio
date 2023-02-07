@@ -51,7 +51,7 @@ function App() {
             ref={arrowRef}
             onClick={() => showMainContent()}
           >
-            <span>Click here to learn more!</span>
+            <span>Click here to continue!</span>
             <ArrowDownwardIcon />
           </div>
           <Socials />

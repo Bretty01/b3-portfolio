@@ -4,11 +4,12 @@
 .overview-header {
   display: flex;
   flex-direction: row;
+  color: var(--accent-light);
+  cursor: pointer;
   svg {
     width: 32px;
     height: 32px;
     margin: auto 10px;
-    cursor: pointer;
   }
 }
 

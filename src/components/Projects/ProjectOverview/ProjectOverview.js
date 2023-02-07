@@ -16,14 +16,14 @@ const ProjectOverview = (props) => {
             exit={{ x: 2000 }}
             transition={{duration: 0.5}}
             className="project-overview">
-            <div className="overview-header">
-                <ArrowBackIcon  onClick={() => props.setOverview(false)}/>
+            <div className="overview-header" onClick={() => props.setOverview(false)}>
+                <ArrowBackIcon />
                 <h3>{props.title || "Unnamed Project"}</h3>
             </div>
             <div className="overview-body">
                 <div>
                     <img alt="Desktop" src={props.desktopImages}/>
-                    <img alt="Mobile" src={props.mobileImages}/>
+                    {props.mobileImages && (<img alt="Mobile" src={props.mobileImages}/>)}
                 </div>
                 <div>
                     <div className="overview-description">{props.longDescription || "Lorem ipsum dolor sit amet, " +

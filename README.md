@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# B3 Portfolio
+The portfolio website of Brett Orban
+## Table of Contents
+* Introduction
+* Notable Languages and Tools
+* Screenshots
+  * Landing
+  * Navigation/About
+  * Skills
+  * Projects
+    * Project List
+    * Project Overview
+  * Contact
+* Closure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Thank you for taking the time to read the B3 Portfolio Readme. This repository contains
+the source code my personal website. It was in my interest to take my 
+understanding of web development and put it to the test by creating 
+my own website to show off all that I have learned throughout the years.
 
-In the project directory, you can run:
+Below in the readme contains some further information about the website 
+and added screenshots of the contents of the website in a condensed, 
+and accessible form.
 
-### `npm start`
+## Notable Languages and Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* HTML
+* CSS/SCSS
+* JS/Node.JS
+* React
+* Jest/React Testing Library
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
+Desktop screenshots were taken with a 1366x768 resolution. Mobile screenshots 
+were taken with a 375x667 (iPhone SE) resolution
+### Landing Page
+The landing page is the first thing you see upon entering the website. 
+It is a full-sized page that contains the title of the website and 
+the social media/resumé icons. Upon clicking "Click here to continue!", 
+you access the rest of the website.
+![Desktop Landing](/readmeImages/web-rm-d-01.jpg)
+![Mobile Landing](/readmeImages/web-rm-m-01.jpg)
 
-### `npm test`
+### Navigation/About
+Upon accessing the rest of the website, a navigation panel becomes 
+accessible to help scroll through and show users where they are in 
+the website. The logo is also visible on which if clicked, takes 
+the user to the top of the website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The about page describes a little about myself and my 
+experiences. The svg image has the panels of the monitors flicker at 
+random intervals and independent of each other.
+![Desktop About](/readmeImages/web-rm-d-02.jpg)
+![Mobile About](/readmeImages/web-rm-m-02.jpg)
 
-### `npm run build`
+### Skills
+![Desktop Skills](/readmeImages/web-rm-d-03.jpg)
+![Mobile Skills](/readmeImages/web-rm-m-03.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Projects
+Initially, the project list will be shown. It is a component that 
+contains all the projects that I have on display. On clicking one 
+of the project modals, the project overview for that specific 
+project will be displayed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project overview has images of the project in question in both 
+mobile and desktop if applicable. It will also contain a description 
+of the project, the languages and tools used to make the project, 
+and links to the github and/or live website.
+#### Project List
+![Desktop List](/readmeImages/web-rm-d-04.jpg)
+![Mobile List](/readmeImages/web-rm-m-04.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Project Overview
+![Desktop Overview](/readmeImages/web-rm-d-05.jpg)
+![Mobile Overview](/readmeImages/web-rm-m-05.jpg)
 
-### `npm run eject`
+### Contact
+This section contains an email form which upon filling all the 
+text boxes and submitting, will send an email with whatever 
+message you want to send.
+![Desktop Contact](/readmeImages/web-rm-d-06.jpg)
+![Mobile Contact](/readmeImages/web-rm-m-06.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Closure
+Thanks for browsing this document. If you want to reach out to me, 
+please refer to my contact information and socials below.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Brett Orban | [Linkedin](https://www.linkedin.com/in/brett-orban-93994324a/) | 
+[Website]() | [Github](https://github.com/Bretty01) | 
+[Email](mailto:b3orban@gmail.com) |
