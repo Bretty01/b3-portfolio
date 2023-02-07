@@ -92,7 +92,7 @@ const Navigation = (props) => {
       console.warn("Unable to initiate scrolling behavior, " + e)
     }
 
-  }, []);
+  });
 
   return (
     <div

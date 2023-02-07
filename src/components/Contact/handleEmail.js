@@ -2,7 +2,7 @@ import * as emailjs from "@emailjs/browser";
 //If error, return {status: 400, text: {errorMessage}}
 
 const handleEmail = async (fromName, fromEmail, fromMessage) => {
-    const EMAIL_FORMAT = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    const EMAIL_FORMAT = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
     if(!fromName || !fromEmail || !fromMessage) {
         return {status: 400, text: "One or more of the text boxes has not been filled out. Please fill all text boxes."}
     }

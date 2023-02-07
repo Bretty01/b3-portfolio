@@ -1,6 +1,4 @@
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import DesktopIcon from '../../Icons/DesktopIcon/DesktopIcon';
-import MobileIcon from '../../Icons/MobileIcon/MobileIcon'
 import {motion} from 'framer-motion'
 import "./ProjectOverview.scss"
 const ProjectOverview = (props) => {
@@ -24,8 +22,8 @@ const ProjectOverview = (props) => {
             </div>
             <div className="overview-body">
                 <div>
-                    <img src={props.desktopImages}/>
-                    <img src={props.mobileImages}/>
+                    <img alt="Desktop" src={props.desktopImages}/>
+                    <img alt="Mobile" src={props.mobileImages}/>
                 </div>
                 <div>
                     <div className="overview-description">{props.longDescription || "Lorem ipsum dolor sit amet, " +

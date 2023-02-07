@@ -36,6 +36,8 @@ const WebSVG = () => {
                 flashvar[2] = !flashvar[2]
                 setFlash([flashvar[0], flashvar[1], flashvar[2]])
                 break
+            default:
+                return
         }
         setTimeout(() => {flipScreen(screenPos)}, timer)
         timer = Math.random() * 5000 + 1000

@@ -18,6 +18,8 @@ const Projects = () => {
     return (
         <div>
             <h1>Projects</h1>
+            <p className="section-description">A little bit of passion projects here, and a little bit of real client
+            projects there. Have a look at all of my featured projects below!</p>
             <AnimatePresence mode="wait">
                 {!isOverview ? <ProjectList setOverview={setOverview} setData={setData}/> :
                     <ProjectOverview key={overviewData?.title}

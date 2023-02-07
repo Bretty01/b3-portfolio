@@ -18,10 +18,6 @@ export default function CustomScrollbar({children, className, ...restProps}) {
         !hovering && setHovering(true);
     }, [hovering]);
 
-    const handleMouseOut = useCallback(() => {
-        !!hovering && setHovering(false);
-    }, [hovering]);
-
     const handleScroll = useCallback(() => {
         if (!scrollHostRef) {
             return;
@@ -29,7 +25,7 @@ export default function CustomScrollbar({children, className, ...restProps}) {
         const scrollHostElement = scrollHostRef.current;
         const {top} = scrollHostElement.getBoundingClientRect()
         let absTop = Math.abs(top)
-        const {scrollTop, scrollHeight, offsetHeight} = scrollHostElement;
+        const {scrollHeight} = scrollHostElement;
         //Get a percentage distace of the height the scrollbar is supposed to be and multiply it by the contained box
         //  (in this case the height of the window) to get the actual distance the scrollbar is supposed to be.
         let newTop =
@@ -91,7 +87,7 @@ export default function CustomScrollbar({children, className, ...restProps}) {
      */
     const resetScrollbar = () => {
         const scrollHostElement = scrollHostRef.current;
-        const {clientHeight, scrollHeight} = scrollHostElement;
+        const {scrollHeight} = scrollHostElement;
         const scrollBoxPercentage = window.innerHeight / scrollHeight;
         const scrollbarHeight = Math.max(
             scrollBoxPercentage * window.innerHeight,

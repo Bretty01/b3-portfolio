@@ -3,6 +3,10 @@
   min-height: 100vh;
   color: white;
   overflow: hidden;
+  i {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+  }
 }
 .landing {
   height: 100vh;
@@ -33,6 +37,11 @@
 #about {
   min-height: 100vh;
   background-color: var(--basic-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px !important;
   > div {
     padding-top: 10vh;
     padding-bottom: 60px;
@@ -100,12 +109,16 @@
       right: 0;
     }
     .landing > .landing-title {
+      text-align: center;
       flex-direction: column;
       h1 {
         font-size: 36px;
       }
       h2 {
         font-size: 20px;
+      }
+      i {
+        font-size: 14px;
       }
     }
   }

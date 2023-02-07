@@ -1,5 +1,5 @@
 import "./App.scss";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useState } from "react";
 import Skills from "./components/Skills/Skills";
 import Navigation from "./components/Navigation/Navigation";
 import Projects from "./components/Projects/Projects";
@@ -31,11 +31,6 @@ function App() {
     arrowRef.current.style.opacity = "0";
   };
 
-  const handleEmail = (e) => {
-    e.preventDefault();
-    console.log("Hi, I should do something about this.");
-  };
-
   return (
     <CustomScrollbar showContent={showContent}>
       <div className="main">
@@ -49,6 +44,7 @@ function App() {
               <strong>Full Stack Developer</strong>
             </h2>
             <h1>Brett Orban</h1>
+            <span><i><u>It ain't a problem without a solution!</u></i></span>
           </div>
           <div
             id="display-main-content"

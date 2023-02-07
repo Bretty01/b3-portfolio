@@ -1,4 +1,3 @@
-import {useState} from 'react'
 import "./Skills.scss"
 import SkillStamp from "../SkillStamp/SkillStamp"
 import React from "../Icons/React/React"
@@ -71,9 +70,6 @@ const Skills = () => {
         }
     }
 
-    //useState variables
-    const [currentTab, setTab] = useState(tab1)
-
     const SkillSection = (props) => {
         return (
             <motion.div
@@ -95,6 +91,9 @@ const Skills = () => {
     return (
         <div>
             <h1>Skills</h1>
+            <p className="section-description">Listed below are a wide variety of the programming languages and tools
+                I have used throughout the years starting from my years in college up to now where I learn new
+                languages and tools for current and upcoming projects.</p>
             <SkillSection header="Frontend" section={tab1}/>
             <SkillSection header="Backend" section={tab2}/>
             <SkillSection header="Languages" section={tab3}/>
