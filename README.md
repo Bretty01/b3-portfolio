@@ -41,7 +41,7 @@ It is a full-sized page that contains the title of the website and
 the social media/resumé icons. Upon clicking "Click here to continue!", 
 you access the rest of the website.
 ![Desktop Landing](/readmeImages/web-rm-d-01.jpg)
-![Mobile Landing](/readmeImages/web-rm-m-01.jpg)
+<img src="./readmeImages/web-rm-m-01.jpg" alt="Mobile Landing" height="300" />
 
 ### Navigation/About
 Upon accessing the rest of the website, a navigation panel becomes 
@@ -53,11 +53,11 @@ The about page describes a little about myself and my
 experiences. The svg image has the panels of the monitors flicker at 
 random intervals and independent of each other.
 ![Desktop About](/readmeImages/web-rm-d-02.jpg)
-![Mobile About](/readmeImages/web-rm-m-02.jpg)
+<img src="./readmeImages/web-rm-m-02.jpg" alt="Mobile About" height="300" />
 
 ### Skills
 ![Desktop Skills](/readmeImages/web-rm-d-03.jpg)
-![Mobile Skills](/readmeImages/web-rm-m-03.jpg)
+<img src="./readmeImages/web-rm-m-03.jpg" alt="Mobile Skills" height="300" />
 
 ### Projects
 Initially, the project list will be shown. It is a component that 
@@ -71,18 +71,18 @@ of the project, the languages and tools used to make the project,
 and links to the github and/or live website.
 #### Project List
 ![Desktop List](/readmeImages/web-rm-d-04.jpg)
-![Mobile List](/readmeImages/web-rm-m-04.jpg)
+<img src="./readmeImages/web-rm-m-04.jpg" alt="Mobile List" height="300" />
 
 #### Project Overview
 ![Desktop Overview](/readmeImages/web-rm-d-05.jpg)
-![Mobile Overview](/readmeImages/web-rm-m-05.jpg)
+<img src="./readmeImages/web-rm-m-05.jpg" alt="Mobile Overview" height="300" />
 
 ### Contact
 This section contains an email form which upon filling all the 
 text boxes and submitting, will send an email with whatever 
 message you want to send.
 ![Desktop Contact](/readmeImages/web-rm-d-06.jpg)
-![Mobile Contact](/readmeImages/web-rm-m-06.jpg)
+<img src="./readmeImages/web-rm-m-06.jpg" alt="Mobile Contact" height="300" />
 
 ## Closure
 Thanks for browsing this document. If you want to reach out to me, 
