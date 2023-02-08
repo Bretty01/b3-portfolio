@@ -6,9 +6,14 @@ exports[`Check second set of mock info to see if the github button is enabled an
     <h1>
       Projects
     </h1>
+    <p
+      class="section-description"
+    >
+      A little bit of passion projects here, and a little bit of real client projects there. Have a look at all of my featured projects below!
+    </p>
     <div
       class="project-overview"
-      style="transform: none;"
+      style="transform: translateX(2000px) translateZ(0);"
     >
       <div
         class="overview-header"
@@ -33,9 +38,11 @@ exports[`Check second set of mock info to see if the github button is enabled an
       >
         <div>
           <img
+            alt="Desktop"
             src="/google-d.png"
           />
           <img
+            alt="Mobile"
             src="/google-m.png"
           />
         </div>
@@ -88,9 +95,14 @@ Object {
         <h1>
           Projects
         </h1>
+        <p
+          class="section-description"
+        >
+          A little bit of passion projects here, and a little bit of real client projects there. Have a look at all of my featured projects below!
+        </p>
         <div
           class="project-overview"
-          style="transform: none;"
+          style="transform: translateX(2000px) translateZ(0);"
         >
           <div
             class="overview-header"
@@ -115,9 +127,11 @@ Object {
           >
             <div>
               <img
+                alt="Desktop"
                 src="/google-d.png"
               />
               <img
+                alt="Mobile"
                 src="/google-m.png"
               />
             </div>
@@ -165,9 +179,14 @@ Object {
       <h1>
         Projects
       </h1>
+      <p
+        class="section-description"
+      >
+        A little bit of passion projects here, and a little bit of real client projects there. Have a look at all of my featured projects below!
+      </p>
       <div
         class="project-overview"
-        style="transform: none;"
+        style="transform: translateX(2000px) translateZ(0);"
       >
         <div
           class="overview-header"
@@ -192,9 +211,11 @@ Object {
         >
           <div>
             <img
+              alt="Desktop"
               src="/google-d.png"
             />
             <img
+              alt="Mobile"
               src="/google-m.png"
             />
           </div>
@@ -299,6 +320,11 @@ Object {
         <h1>
           Projects
         </h1>
+        <p
+          class="section-description"
+        >
+          A little bit of passion projects here, and a little bit of real client projects there. Have a look at all of my featured projects below!
+        </p>
         <div
           id="project-list"
           style="transform: translateX(2000px) translateZ(0);"
@@ -438,6 +464,11 @@ Object {
       <h1>
         Projects
       </h1>
+      <p
+        class="section-description"
+      >
+        A little bit of passion projects here, and a little bit of real client projects there. Have a look at all of my featured projects below!
+      </p>
       <div
         id="project-list"
         style="transform: translateX(2000px) translateZ(0);"

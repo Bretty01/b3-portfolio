@@ -3,16 +3,26 @@ import handleEmail from "./handleEmail"
 import { useState } from 'react'
 import Loading from "../Icons/Loading";
 const Contact = () => {
+    //State variables
     const [isProcessing, setProcessing] = useState(false)
     const [isSuccess, setSuccess] = useState(false)
     const [errorMessage, setErrorMessage] = useState(null)
+
+    /**
+     * Function: submitEmail
+     * Purpose: Handles the contact form information, submits it to be converted into an HTML email and sends
+     *  sets a response to show the user if the information has successfully been sent or not.
+     * @param e: The form event handler
+     */
     async function submitEmail(e) {
         e.preventDefault()
+        //Sets a loading icon for the user to show that the form is being handled
         setProcessing(true)
-        let status = await handleEmail(e.target[0].value, e.target[1].value, e.target[2].value)
+        let status = await handleEmail(e.target[0]?.value, e.target[1]?.value, e.target[2]?.value)
         if(status.status === 200) {
             setSuccess(true)
         }
+        //set any error message and disable the loading icon
         setErrorMessage(status.text)
         setProcessing(false)
     }

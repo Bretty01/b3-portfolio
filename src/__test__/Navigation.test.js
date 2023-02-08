@@ -17,7 +17,7 @@ test('B3Logo hover snapshot', () => {
 
 test('Resize window width and snapshot the navigation', () => {
     const {container} = render(<App />)
-    const arrowIcon = screen.getByText(/Click here to learn more!/i)
+    const arrowIcon = screen.getByText(/Click here to continue!/i)
     userEvent.click(arrowIcon)
     global.window.innerWidth = 425
     expect(window.innerWidth).toEqual(425)

@@ -5,7 +5,7 @@ import App from './App';
 test('App snapshots', () => {
   const tree = render(<App />)
   expect(tree).toMatchSnapshot()
-  const arrowIcon = screen.getByText(/Click here to learn more!/i)
+  const arrowIcon = screen.getByText(/Click here to continue!/i)
   userEvent.click(arrowIcon)
   expect(tree).toMatchSnapshot()
 })
@@ -24,7 +24,7 @@ test('App does not show main section', () => {
 
 test('click ArrowDownwardIcon to show main section', () => {
   render(<App />)
-  const arrowIcon = screen.getByText(/Click here to learn more!/i)
+  const arrowIcon = screen.getByText(/Click here to continue!/i)
   userEvent.click(arrowIcon)
   const unshownElement = screen.queryAllByText(/Projects/i)
   expect(unshownElement).not.toBeNull()

@@ -1,5 +1,5 @@
 import projectInfo from "../components/Projects/ProjectInfo";
-import {render, screen} from "@testing-library/react"
+import {render, screen, waitFor} from "@testing-library/react"
 import userEvent from '@testing-library/user-event'
 import Projects from "../components/Projects/Projects";
 jest.mock('../components/Projects/ProjectInfo', () => {
@@ -46,7 +46,7 @@ test('click mock project modal to update Project component to contain ProjectOve
     let modal = screen.queryByText(/This is a mock project used to mock me/i)
     expect(modal).toBeDefined()
     userEvent.click(modal)
-    await new Promise((r) => setTimeout(r, 1200))
+    await waitFor(() => screen.getByText(/MockularJS/i))
     expect(tree).toMatchSnapshot()
     modal = screen.queryByText(/This is a mock project used to mock me/i)
     expect(modal).toBeNull()
@@ -57,12 +57,12 @@ test('Alternate between ProjectList and ProjectOverview components', async () =>
     let modal = screen.queryByText(/This is a mock project used to mock me/i)
     expect(modal).toBeDefined()
     userEvent.click(modal)
-    await new Promise((r) => setTimeout(r, 1200))
+    await waitFor(() => screen.getByText(/MockularJS/i))
     modal = screen.queryByText(/This is a mock project used to mock me/i)
     expect(modal).toBeNull()
     const backArrow = container.querySelector(".overview-header")
     userEvent.click(backArrow)
-    await new Promise((r) => setTimeout(r, 1200))
+    await waitFor(() => screen.getByText(/This is a mock project used to mock me/i))
     modal = screen.queryByText(/This is a mock project used to mock me/i)
     expect(modal).toBeDefined()
 })
@@ -71,7 +71,7 @@ test('Check second set of mock info to see if the github button is enabled and w
     const {container} = render(<Projects />)
     let modal = screen.queryByText(/Mock Project 2/i)
     userEvent.click(modal)
-    await new Promise((r) => setTimeout(r, 1200))
+    await waitFor(() => screen.getByText(/MockDB/i))
     expect(container).toMatchSnapshot()
     const githubButton = container.querySelector(".overview-links a:nth-child(1) button")
     const websiteButton = container.querySelector(".overview-links a:nth-child(2) button")

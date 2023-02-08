@@ -1,6 +1,16 @@
 import * as emailjs from "@emailjs/browser";
 //If error, return {status: 400, text: {errorMessage}}
 
+/**
+ * Function: handEmail
+ * Purpose: Takes information and sends it to create an email to be sent to me
+ * @param fromName Name of the sender
+ * @param fromEmail Email of the sender
+ * @param fromMessage Message that the sender submitted
+ * @returns {text: string, status: number} status: A status number that determines if
+ * the submission was successful.
+ * text: The message to correspond to the status code for more context.
+ */
 const handleEmail = async (fromName, fromEmail, fromMessage) => {
     const EMAIL_FORMAT = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/
     if(!fromName || !fromEmail || !fromMessage) {

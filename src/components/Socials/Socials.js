@@ -17,7 +17,7 @@ const Socials = (props) => {
                     LinkedIn
                 </div>
             </a>
-            <a href="https://www.google.ca">
+            <a href="/Brett Orban Resume.pdf">
                 <ArticleIcon />
                 <div className="speech-bubble">
                     Resume

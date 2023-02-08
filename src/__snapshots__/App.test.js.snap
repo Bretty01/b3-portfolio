@@ -29,12 +29,19 @@ Object {
                 <h1>
                   Brett Orban
                 </h1>
+                <span>
+                  <i>
+                    <u>
+                      It ain't a problem without a solution!
+                    </u>
+                  </i>
+                </span>
               </div>
               <div
                 id="display-main-content"
               >
                 <span>
-                  Click here to learn more!
+                  Click here to continue!
                 </span>
                 <svg
                   aria-hidden="true"
@@ -92,7 +99,7 @@ Object {
                   </div>
                 </a>
                 <a
-                  href="https://www.google.ca"
+                  href="/Brett Orban Resume.pdf"
                 >
                   <svg
                     aria-hidden="true"
@@ -152,12 +159,19 @@ Object {
               <h1>
                 Brett Orban
               </h1>
+              <span>
+                <i>
+                  <u>
+                    It ain't a problem without a solution!
+                  </u>
+                </i>
+              </span>
             </div>
             <div
               id="display-main-content"
             >
               <span>
-                Click here to learn more!
+                Click here to continue!
               </span>
               <svg
                 aria-hidden="true"
@@ -215,7 +229,7 @@ Object {
                 </div>
               </a>
               <a
-                href="https://www.google.ca"
+                href="/Brett Orban Resume.pdf"
               >
                 <svg
                   aria-hidden="true"
@@ -336,13 +350,20 @@ Object {
                 <h1>
                   Brett Orban
                 </h1>
+                <span>
+                  <i>
+                    <u>
+                      It ain't a problem without a solution!
+                    </u>
+                  </i>
+                </span>
               </div>
               <div
                 id="display-main-content"
                 style="opacity: 0;"
               >
                 <span>
-                  Click here to learn more!
+                  Click here to continue!
                 </span>
                 <svg
                   aria-hidden="true"
@@ -400,7 +421,7 @@ Object {
                   </div>
                 </a>
                 <a
-                  href="https://www.google.ca"
+                  href="/Brett Orban Resume.pdf"
                 >
                   <svg
                     aria-hidden="true"
@@ -576,7 +597,7 @@ Object {
                     </div>
                   </a>
                   <a
-                    href="https://www.google.ca"
+                    href="/Brett Orban Resume.pdf"
                   >
                     <svg
                       aria-hidden="true"
@@ -1738,6 +1759,11 @@ Object {
                   <h1>
                     Skills
                   </h1>
+                  <p
+                    class="section-description"
+                  >
+                    Listed below are a wide variety of the programming languages and tools I have used throughout the years starting from my years in college up to now where I learn new languages and tools for current and upcoming projects.
+                  </p>
                   <div
                     class="skill-section"
                     style="opacity: 1; transform: scale(0) translateZ(0);"
@@ -2806,6 +2832,11 @@ Object {
                   <h1>
                     Projects
                   </h1>
+                  <p
+                    class="section-description"
+                  >
+                    A little bit of passion projects here, and a little bit of real client projects there. Have a look at all of my featured projects below!
+                  </p>
                   <div
                     id="project-list"
                     style="transform: translateX(2000px) translateZ(0);"
@@ -3008,29 +3039,36 @@ Object {
                   <h1>
                     Contact Me
                   </h1>
-                  <form
-                    action="emailhandle.php"
-                    method="post"
+                  <p
+                    class="section-description"
                   >
-                    <input
-                      name="Name"
-                      placeholder="Enter your name here..."
-                      type="text"
-                    />
-                    <input
-                      name="Email"
-                      placeholder="Enter your email here..."
-                      type="email"
-                    />
-                    <textarea
-                      name="Message"
-                      placeholder="Message content"
-                    />
-                    <input
-                      type="submit"
-                      value="submit"
-                    />
-                  </form>
+                    Let's connect! Use the form below to send me a message. I'll be sure to get back to you!
+                  </p>
+                  <div>
+                    <form>
+                      <input
+                        name="name"
+                        placeholder="Enter your name here..."
+                        required=""
+                        type="text"
+                      />
+                      <input
+                        name="email"
+                        placeholder="Enter your email here..."
+                        required=""
+                        type="email"
+                      />
+                      <textarea
+                        name="message"
+                        placeholder="Message content"
+                        required=""
+                      />
+                      <input
+                        type="submit"
+                        value="Submit"
+                      />
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -3073,13 +3111,20 @@ Object {
               <h1>
                 Brett Orban
               </h1>
+              <span>
+                <i>
+                  <u>
+                    It ain't a problem without a solution!
+                  </u>
+                </i>
+              </span>
             </div>
             <div
               id="display-main-content"
               style="opacity: 0;"
             >
               <span>
-                Click here to learn more!
+                Click here to continue!
               </span>
               <svg
                 aria-hidden="true"
@@ -3137,7 +3182,7 @@ Object {
                 </div>
               </a>
               <a
-                href="https://www.google.ca"
+                href="/Brett Orban Resume.pdf"
               >
                 <svg
                   aria-hidden="true"
@@ -3313,7 +3358,7 @@ Object {
                   </div>
                 </a>
                 <a
-                  href="https://www.google.ca"
+                  href="/Brett Orban Resume.pdf"
                 >
                   <svg
                     aria-hidden="true"
@@ -4475,6 +4520,11 @@ Object {
                 <h1>
                   Skills
                 </h1>
+                <p
+                  class="section-description"
+                >
+                  Listed below are a wide variety of the programming languages and tools I have used throughout the years starting from my years in college up to now where I learn new languages and tools for current and upcoming projects.
+                </p>
                 <div
                   class="skill-section"
                   style="opacity: 1; transform: scale(0) translateZ(0);"
@@ -5543,6 +5593,11 @@ Object {
                 <h1>
                   Projects
                 </h1>
+                <p
+                  class="section-description"
+                >
+                  A little bit of passion projects here, and a little bit of real client projects there. Have a look at all of my featured projects below!
+                </p>
                 <div
                   id="project-list"
                   style="transform: translateX(2000px) translateZ(0);"
@@ -5745,29 +5800,36 @@ Object {
                 <h1>
                   Contact Me
                 </h1>
-                <form
-                  action="emailhandle.php"
-                  method="post"
+                <p
+                  class="section-description"
                 >
-                  <input
-                    name="Name"
-                    placeholder="Enter your name here..."
-                    type="text"
-                  />
-                  <input
-                    name="Email"
-                    placeholder="Enter your email here..."
-                    type="email"
-                  />
-                  <textarea
-                    name="Message"
-                    placeholder="Message content"
-                  />
-                  <input
-                    type="submit"
-                    value="submit"
-                  />
-                </form>
+                  Let's connect! Use the form below to send me a message. I'll be sure to get back to you!
+                </p>
+                <div>
+                  <form>
+                    <input
+                      name="name"
+                      placeholder="Enter your name here..."
+                      required=""
+                      type="text"
+                    />
+                    <input
+                      name="email"
+                      placeholder="Enter your email here..."
+                      required=""
+                      type="email"
+                    />
+                    <textarea
+                      name="message"
+                      placeholder="Message content"
+                      required=""
+                    />
+                    <input
+                      type="submit"
+                      value="Submit"
+                    />
+                  </form>
+                </div>
               </div>
             </div>
           </div>

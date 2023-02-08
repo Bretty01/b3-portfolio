@@ -241,7 +241,7 @@ Object {
             </div>
           </a>
           <a
-            href="https://www.google.ca"
+            href="/Brett Orban Resume.pdf"
           >
             <svg
               aria-hidden="true"
@@ -416,7 +416,7 @@ Object {
           </div>
         </a>
         <a
-          href="https://www.google.ca"
+          href="/Brett Orban Resume.pdf"
         >
           <svg
             aria-hidden="true"
@@ -645,7 +645,7 @@ exports[`Resize window width and snapshot the navigation 1`] = `
       </div>
     </a>
     <a
-      href="https://www.google.ca"
+      href="/Brett Orban Resume.pdf"
     >
       <svg
         aria-hidden="true"
