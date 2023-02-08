@@ -1,7 +1,6 @@
 import "./Skills.scss"
 import SkillStamp from "../SkillStamp/SkillStamp"
 import React from "../Icons/React/React"
-import Redux from "../Icons/Redux/Redux"
 import CSS3 from "../Icons/CSS3/CSS3"
 import HTML5 from "../Icons/HTML5/HTML5"
 import Bootstrap from "../Icons/Bootstrap/Bootstrap"
@@ -23,12 +22,12 @@ import Git from "../Icons/Git/Git"
 import Github from "../Icons/GitHub/Github"
 import AWS from "../Icons/AWS/AWS"
 import Jest from "../Icons/Jest/Jest"
+import SQL from "../Icons/SQL/SQL"
 import {motion} from "framer-motion"
 const Skills = () => {
     //Standard variables
     const tab1 = [
         {title: "React", image: <React />},
-        {title: "Redux", image: <Redux />},
         {title: "CSS3", image: <CSS3 />},
         {title: "HTML5", image: <HTML5 />},
         {title: "Bootstrap", image: <Bootstrap />},
@@ -40,7 +39,8 @@ const Skills = () => {
         {title: "REST", image: <REST />},
         {title: "PHP", image: <PHP />},
         {title: "GraphQL", image: <GraphQL />},
-        {title: "Laravel", image: <Laravel />}
+        {title: "Laravel", image: <Laravel />},
+        {title: "SQL", image: <SQL />}
     ]
     const tab3 = [
         {title: "Javascript", image: <Javascript />},

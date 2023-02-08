@@ -1,5 +1,4 @@
 import * as emailjs from "@emailjs/browser";
-//If error, return {status: 400, text: {errorMessage}}
 
 /**
  * Function: handEmail
