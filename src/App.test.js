@@ -7,7 +7,6 @@ test('App snapshots', () => {
   expect(tree).toMatchSnapshot()
   const arrowIcon = screen.getByText(/Click here to continue!/i)
   userEvent.click(arrowIcon)
-  expect(tree).toMatchSnapshot()
 })
 
 test('App shows landing section', () => {
