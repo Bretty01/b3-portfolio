@@ -3,6 +3,8 @@ import App from "../App"
 import {fireEvent, render, screen} from "@testing-library/react";
 import userEvent from '@testing-library/user-event'
 
+
+
 test('Navigation matches snapshot', () => {
     const tree = render(<Navigation />)
     expect(tree).toMatchSnapshot()

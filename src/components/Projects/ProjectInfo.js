@@ -13,7 +13,8 @@ const projectInfo = [
     mobileImages: ["/cow-m-01.jpg"],
     desktopImages: ["/cow-d-01.jpg"],
     buttons: {
-      github: "https://github.com/Bretty01/coveted-cow/tree/master",
+      github: "https://github.com/Bretty01/coveted-cow",
+      website: "https://coveted-cow.onrender.com/"
     },
   },
   {
@@ -37,7 +38,7 @@ const projectInfo = [
     mobileImages: ["/twa-m-01.jpg"],
     desktopImages: ["/twa-d-01.jpg"],
     buttons: {
-      github: "https://github.com/Bretty01/coveted-cow/tree/master",
+      github: "https://github.com/Bretty01/tina-waters-artist",
       website: "https://www.tinawatersartist.com",
     },
   },
@@ -55,7 +56,8 @@ const projectInfo = [
     mobileImages: ["/web-m-01.jpg"],
     desktopImages: ["/web-d-01.jpg"],
     buttons: {
-      github: "https://github.com/Bretty01/coveted-cow/tree/master",
+      website: "https://www.b3orban.com",
+      github: "https://github.com/Bretty01/b3-portfolio",
     },
   },
   {
