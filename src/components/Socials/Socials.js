@@ -18,7 +18,7 @@ const Socials = (props) => {
                     LinkedIn
                 </div>
             </a>
-            <a href={PDF} target="_blank" rel="noreferrer">
+            <a href={PDF} download>
                 <ArticleIcon />
                 <div className="speech-bubble">
                     Resume
