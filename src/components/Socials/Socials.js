@@ -1,6 +1,7 @@
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
+import PDF from "./Brett Orban Resume.pdf"
 import "./Socials.scss"
 const Socials = (props) => {
     return (
@@ -17,7 +18,7 @@ const Socials = (props) => {
                     LinkedIn
                 </div>
             </a>
-            <a href="/Brett Orban Resume.pdf" target="_blank">
+            <a href={PDF} target="_blank" rel="noreferrer">
                 <ArticleIcon />
                 <div className="speech-bubble">
                     Resume
