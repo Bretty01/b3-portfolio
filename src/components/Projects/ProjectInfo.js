@@ -6,9 +6,12 @@ const projectInfo = [
     longDescription:
       "The perfect blend of frontend and backend to create an ecommerce experience like no other! Through the usage of " +
       "Express and MongoDB, it makes for smooth experience of grabbing various information including product " +
-      "information and reviews. React also mades for a clean experience on the frontend especially for re-rendering " +
-      "based on updated product information.",
-    skills: ["React", "REST/Express", "MongoDB", "HTML5", "CSS3", "NodeJS"],
+      "information and reviews. React also makes for a clean experience on the frontend especially for re-rendering " +
+      "based on updated product information.\n\n\n" +
+        "You can log in using the following information:\n" +
+        "Email: testemail@test.com\n" +
+        "Password: test123",
+    skills: ["React", "REST/Express", "MongoDB", "Jest/React Testing Library", "HTML5", "CSS3", "NodeJS"],
     logoLink: 0,
     mobileImages: ["/cow-m-01.jpg"],
     desktopImages: ["/cow-d-01.jpg"],
@@ -29,6 +32,7 @@ const projectInfo = [
       "AWS",
       "GraphQL",
       "ReactQuery",
+      "Jest/React Testing Library",
       "HTML5",
       "CSS3",
       "NodeJS",
@@ -51,7 +55,7 @@ const projectInfo = [
       "the skills I have generated in the most refined way possible as well as learn a couple new things. This website " +
       "is more frontend focused utilitizing various HTML, CSS(namely SASS), and JS to bring the current flare that I " +
       "desire.",
-    skills: ["React", "HTML5", "CSS3", "SCSS", "NodeJS"],
+    skills: ["React", "HTML5", "CSS3", "SCSS", "NodeJS", "Jest/React Testing Library"],
     logoLink: 2,
     mobileImages: ["/web-m-01.jpg"],
     desktopImages: ["/web-d-01.jpg"],
@@ -72,7 +76,7 @@ const projectInfo = [
     logoLink: 3,
     desktopImages: ["/brm-d-01.jpg"],
     buttons: {
-      github: "https://github.com/Bretty01/coveted-cow/tree/master",
+      github: "https://github.com/Bretty01/bread-maker-v2",
     },
   },
 ];
