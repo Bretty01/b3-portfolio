@@ -41,10 +41,10 @@ function App() {
         >
           <div className="landing-title">
             <h2>
-              <strong>Full Stack Developer</strong>
+              <strong>Web & Applications Developer</strong>
             </h2>
             <h1>Brett Orban</h1>
-            <span><i><u>It ain't a problem without a solution!</u></i></span>
+            <span><i><u>Transforming productivity through meaningful solutions.</u></i></span>
           </div>
           <div
             id="display-main-content"
@@ -66,16 +66,20 @@ function App() {
               <div>
                 <WebSVG />
                 <span>
-                  I'm a <strong>Full Stack Developer</strong> born and raised in
-                  Regina, Saskatchewan. While I have grown up with a love for
-                  technology, I have further appreciated the art of web and
-                  software through both the creativity and problem solving that
-                  programming offers.
-                  <br />
-                  <br />I am always excited to learn new skills and refine my
-                  existing skills to further improve myself and the people
-                  around me. Take a look around and see what I have to offer.
-                  Maybe you will get a good impression and be inspired!
+                  Life throws us <strong>problems</strong> all the time in all aspects of life. It can the the smallest
+                  programming issues like forgetting a semicolon on a simple line of code, or it can be the big business
+                  issues like <strong>analyzing</strong> where the big trends are taking us and executing on a plan. We
+                  never know where the next day takes us, so you must always make sure <strong>you have the right
+                  person</strong>.
+                  <br /><br />
+                  Being a <strong>developer</strong> is not just about creating code, it's about taking any problem that
+                  is thrown at you, understanding the cause, planning a resolution, and executing on it. I firmly
+                  believe that such a simple concept can be applied to so many aspects of life and it can keep our
+                  society running as smoothly as possible. I love <strong>programming</strong> because problem solving
+                  is a big part of who I am.
+                  <br /><br />
+                  Life is a rollercoaster with unexpected loops and sharp turns,
+                  <strong> and I am loving the ride!</strong>
                 </span>
               </div>
             </div>

@@ -88,6 +88,6 @@ message you want to send.
 Thanks for browsing this document. If you want to reach out to me, 
 please refer to my contact information and socials below.
 
-Brett Orban | [Linkedin](https://www.linkedin.com/in/brett-orban-93994324a/) | 
+Brett Orban | [Linkedin](https://www.linkedin.com/in/brett-orban/) | 
 [Website]() | [Github](https://github.com/Bretty01) | 
 [Email](mailto:b3orban@gmail.com) |

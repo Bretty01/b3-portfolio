@@ -221,7 +221,7 @@ Object {
             </div>
           </a>
           <a
-            href="https://www.linkedin.com/in/brett-orban-93994324a/"
+            href="https://www.linkedin.com/in/brett-orban/"
           >
             <svg
               aria-hidden="true"
@@ -241,7 +241,8 @@ Object {
             </div>
           </a>
           <a
-            href="/Brett Orban Resume.pdf"
+            href="/Brett_Orban_Resume.pdf"
+            target="_blank"
           >
             <svg
               aria-hidden="true"
@@ -396,7 +397,7 @@ Object {
           </div>
         </a>
         <a
-          href="https://www.linkedin.com/in/brett-orban-93994324a/"
+          href="https://www.linkedin.com/in/brett-orban/"
         >
           <svg
             aria-hidden="true"
@@ -416,7 +417,8 @@ Object {
           </div>
         </a>
         <a
-          href="/Brett Orban Resume.pdf"
+          href="/Brett_Orban_Resume.pdf"
+          target="_blank"
         >
           <svg
             aria-hidden="true"
@@ -625,7 +627,7 @@ exports[`Resize window width and snapshot the navigation 1`] = `
       </div>
     </a>
     <a
-      href="https://www.linkedin.com/in/brett-orban-93994324a/"
+      href="https://www.linkedin.com/in/brett-orban/"
     >
       <svg
         aria-hidden="true"
@@ -645,7 +647,8 @@ exports[`Resize window width and snapshot the navigation 1`] = `
       </div>
     </a>
     <a
-      href="/Brett Orban Resume.pdf"
+      href="/Brett_Orban_Resume.pdf"
+      target="_blank"
     >
       <svg
         aria-hidden="true"

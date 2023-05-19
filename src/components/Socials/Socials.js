@@ -11,7 +11,7 @@ const Socials = (props) => {
                     Github
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/brett-orban-93994324a/">
+            <a href="https://www.linkedin.com/in/brett-orban/">
                 <LinkedInIcon />
                 <div className="speech-bubble">
                     LinkedIn
