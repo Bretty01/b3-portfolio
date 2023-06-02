@@ -44,7 +44,7 @@ function App() {
               <strong>Web & Applications Developer</strong>
             </h2>
             <h1>Brett Orban</h1>
-            <span><i><u>Transforming productivity through meaningful solutions.</u></i></span>
+            <span><i><u>Transforming productivity through meaningful resolutions.</u></i></span>
           </div>
           <div
             id="display-main-content"
